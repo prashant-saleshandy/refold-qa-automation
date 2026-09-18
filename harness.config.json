@@ -1,0 +1,30 @@
+{
+  "workflows": {
+    "hubspot": [
+      {
+        "workflowId": "681368981acc0cbcd16295a9",
+        "phases": [
+          {
+            "name": "create",
+            "actions": [
+              "create-contact",
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          },
+          {
+            "name": "update",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-company"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

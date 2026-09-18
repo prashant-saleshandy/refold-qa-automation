@@ -1,0 +1,20 @@
+node_modules/
+dist/
+build/
+
+# secrets
+.env
+.env.local
+*.pem
+
+# test artifacts
+test-results/
+*.log
+
+# editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# nvm/version files that shouldn't be forced
+.node-version

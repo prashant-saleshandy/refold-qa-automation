@@ -1,0 +1,29 @@
+{
+  "name": "refold-qa-automation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated QA harness for SalesHandy <-> Refold <-> CRM (HubSpot, Salesforce, Pipedrive, Zoho) integration workflows.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.21.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json",
+    "test:suite": "tsx scripts/run-suite.ts",
+    "preflight": "tsx scripts/preflight-only.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "imapflow": "^2.0.5",
+    "nodemailer": "^10.0.10",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/nodemailer": "^8.0.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
