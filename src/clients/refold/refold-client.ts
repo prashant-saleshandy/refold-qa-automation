@@ -3,6 +3,14 @@ import { createLogger } from '../../core/logger.js';
 
 const logger = createLogger('refold-client');
 
+/**
+ * Per-node terminal statuses observed live 2026-09-18. A node not yet in one
+ * of these states hasn't finished running, and its `input_data` may still
+ * be empty/undefined even though the execution record itself already
+ * exists — see waitForExecutionCompletion's docstring for why this matters.
+ */
+const TERMINAL_NODE_STATUSES = new Set(['Success', 'Errored', 'Skipped', 'Failed', 'Aborted']);
+
 export interface RefoldExecutionNode {
   node_id: string;
   node_name: string;
@@ -137,7 +145,11 @@ export class RefoldClient {
   /**
    * Polls listExecutions() until a new execution appears for the workflow
    * created after `since`, or the timeout elapses. This is how we detect
-   * that the reply you sent actually triggered the workflow.
+   * that whatever trigger fired (a reply, or a direct API call like
+   * SalesHandyClient.updateProspectOutcome — see TriggerType in
+   * outcome-gate-registry.ts) actually reached Refold. Trigger-mechanism
+   * agnostic — do not assume "no execution" means the reply didn't arrive;
+   * check what actually fired the trigger for this specific run.
    */
   async waitForExecution(params: {
     workflowId: string;
@@ -163,8 +175,68 @@ export class RefoldClient {
 
     throw new Error(
       `Timed out after ${timeoutMs}ms waiting for a Refold execution on workflow ${params.workflowId} ` +
-        `(linked_account_id=${this.linkedAccountId}). Did the reply actually get sent/detected?`,
+        `(linked_account_id=${this.linkedAccountId}). The trigger call itself may have succeeded but never ` +
+        `reached Refold — check what actually fires this workflow's trigger for this run before assuming ` +
+        `it's a reply-detection issue.`,
     );
+  }
+
+  /**
+   * Fetches an execution, then keeps polling until every node has reached a
+   * terminal status (or the timeout elapses) — NOT just until the execution
+   * record exists. Confirmed live 2026-09-18: this workflow's execution has
+   * 45 internal nodes (branching rule-checks for every possible action plus
+   * the actual HubSpot calls), and reading `nodes[].input_data` right after
+   * the execution first appears can catch later-running actions
+   * (create-contact, create-deal, create-task in one real run) still
+   * mid-flight with no `input_data` populated yet — while earlier-running
+   * ones (company/note/email) already look complete. That reads as a false
+   * "no matching node found", not a real product failure. Always use this
+   * instead of a bare getExecution() call when you're about to read node
+   * data for verification.
+   *
+   * Confirmed live 2026-09-24: `nodes` itself grows incrementally as the
+   * graph unfolds — Refold doesn't pre-populate every node as "Pending" up
+   * front, it only lists nodes that have actually started. A poll that
+   * lands while only the first few (already-Success) branches have been
+   * recorded sees zero pending nodes and wrongly concludes the whole
+   * execution is done, missing action nodes (e.g. Update Deal/Company/
+   * Contact) that simply hadn't appeared in the list yet — same false
+   * "no matching node found" symptom as the input_data race above, but
+   * from node COUNT growing, not individual node STATUS changing. Fixed by
+   * also requiring the node count to be unchanged (stable) across two
+   * consecutive polls before treating "all terminal" as real completion.
+   */
+  async waitForExecutionCompletion(
+    executionId: string,
+    options: { timeoutMs?: number; pollIntervalMs?: number } = {},
+  ): Promise<RefoldExecutionDetail> {
+    const timeoutMs = options.timeoutMs ?? 180_000;
+    const pollIntervalMs = options.pollIntervalMs ?? 5_000;
+    const deadline = Date.now() + timeoutMs;
+
+    let detail = await this.getExecution(executionId);
+    let previousNodeCount = -1;
+    while (Date.now() < deadline) {
+      const nodes = detail.nodes ?? [];
+      const pending = nodes.filter((n) => !TERMINAL_NODE_STATUSES.has(n.node_status));
+      const nodeCountStable = nodes.length === previousNodeCount;
+      if (nodes.length > 0 && pending.length === 0 && nodeCountStable) return detail;
+
+      logger.debug(
+        `Execution ${executionId} still running (${pending.length} node(s) pending, ` +
+          `${nodes.length} node(s) seen, stable=${nodeCountStable}) — polling again...`,
+      );
+      previousNodeCount = nodes.length;
+      await new Promise((resolve) => setTimeout(resolve, pollIntervalMs));
+      detail = await this.getExecution(executionId);
+    }
+
+    logger.warn(
+      `Timed out after ${timeoutMs}ms waiting for execution ${executionId} to finish — ` +
+        `returning the latest snapshot, which may still be incomplete.`,
+    );
+    return detail;
   }
 
   /**

@@ -1,5 +1,6 @@
 import nodemailer, { type Transporter } from 'nodemailer';
 import { ImapFlow } from 'imapflow';
+import { simpleParser } from 'mailparser';
 import { createLogger } from '../../core/logger.js';
 
 const logger = createLogger('test-mailbox-client');
@@ -82,15 +83,40 @@ export class TestMailboxClient {
     const pollIntervalMs = options.pollIntervalMs ?? 10_000;
     const deadline = Date.now() + timeoutMs;
 
-    const client = new ImapFlow({
-      host: this.config.imapHost,
-      port: this.config.imapPort,
-      secure: true,
-      auth: { user: this.config.username, pass: this.config.password },
-      logger: false,
-    });
+    const newClient = () =>
+      new ImapFlow({
+        host: this.config.imapHost,
+        port: this.config.imapPort,
+        secure: true,
+        auth: { user: this.config.username, pass: this.config.password },
+        logger: false,
+      });
 
-    await client.connect();
+    // Confirmed live 2026-09-23: this environment sees genuinely
+    // intermittent ETIMEDOUT/ENETUNREACH connecting to Gmail's IMAP host —
+    // not a persistent block (the exact same address succeeds moments
+    // later), so a short retry clears it reliably without masking a real,
+    // persistent connectivity problem (still throws after all attempts).
+    // ImapFlow instances can't be reused after a failed connect() — confirmed
+    // live 2026-09-23 ("Can not re-use ImapFlow instance") — a fresh
+    // instance is required per attempt, not just a retried connect() call.
+    let client = newClient();
+    let lastError: unknown;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        // eslint-disable-next-line no-await-in-loop
+        await client.connect();
+        lastError = undefined;
+        break;
+      } catch (error) {
+        lastError = error;
+        logger.warn(`IMAP connect attempt ${attempt}/3 failed (${(error as Error).message || (error as Error).name}) — retrying...`);
+        client = newClient();
+        // eslint-disable-next-line no-await-in-loop
+        await new Promise((resolve) => setTimeout(resolve, 3_000));
+      }
+    }
+    if (lastError) throw lastError;
     try {
       while (Date.now() < deadline) {
         const lock = await client.getMailboxLock('INBOX');
@@ -107,6 +133,81 @@ export class TestMailboxClient {
                 from: message.envelope.from?.[0]?.address ?? '',
                 subject,
               };
+            }
+          }
+        } finally {
+          lock.release();
+        }
+        logger.debug(`Message "${subject}" not in inbox yet, polling again...`);
+        // eslint-disable-next-line no-await-in-loop
+        await new Promise((resolve) => setTimeout(resolve, pollIntervalMs));
+      }
+    } finally {
+      await client.logout().catch(() => undefined);
+    }
+
+    throw new Error(`Timed out after ${timeoutMs}ms waiting for a message with subject "${subject}".`);
+  }
+
+  /**
+   * Polls the IMAP inbox for a message with the given exact subject, then
+   * returns the FIRST link found in its HTML body — SalesHandy rewrites any
+   * `<a href>` in a sent email's body into its own click-tracking redirect
+   * URL at send time, so this is the real, tracked URL a recipient would
+   * actually click. Used as "Link is Clicked in Saleshandy"'s trigger: an
+   * unauthenticated GET to this exact URL is functionally identical to a
+   * real recipient clicking the link — no internal API is involved.
+   */
+  async findLinkInMessage(
+    subject: string,
+    since: Date,
+    options: { timeoutMs?: number; pollIntervalMs?: number } = {},
+  ): Promise<string> {
+    const timeoutMs = options.timeoutMs ?? 25 * 60_000;
+    const pollIntervalMs = options.pollIntervalMs ?? 10_000;
+    const deadline = Date.now() + timeoutMs;
+
+    const newClient = () =>
+      new ImapFlow({
+        host: this.config.imapHost,
+        port: this.config.imapPort,
+        secure: true,
+        auth: { user: this.config.username, pass: this.config.password },
+        logger: false,
+      });
+
+    let client = newClient();
+    let lastError: unknown;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        // eslint-disable-next-line no-await-in-loop
+        await client.connect();
+        lastError = undefined;
+        break;
+      } catch (error) {
+        lastError = error;
+        logger.warn(`IMAP connect attempt ${attempt}/3 failed (${(error as Error).message || (error as Error).name}) — retrying...`);
+        client = newClient();
+        // eslint-disable-next-line no-await-in-loop
+        await new Promise((resolve) => setTimeout(resolve, 3_000));
+      }
+    }
+    if (lastError) throw lastError;
+    try {
+      while (Date.now() < deadline) {
+        const lock = await client.getMailboxLock('INBOX');
+        try {
+          for await (const message of client.fetch({ since }, { envelope: true, source: true })) {
+            if (message.envelope?.subject === subject && message.source) {
+              const parsed = await simpleParser(message.source);
+              const html = typeof parsed.html === 'string' ? parsed.html : parsed.textAsHtml;
+              const match = html?.match(/href="([^"]+)"/);
+              if (!match?.[1]) {
+                throw new Error(`Found message with subject "${subject}" but its body has no <a href> link.`);
+              }
+              const link = match[1].replace(/&amp;/g, '&');
+              logger.info(`Found tracked link in message "${subject}": ${link}`);
+              return link;
             }
           }
         } finally {

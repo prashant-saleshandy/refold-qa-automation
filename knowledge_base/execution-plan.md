@@ -380,3 +380,328 @@ Removed along with it, since nothing else referenced them:
 `package.json` scripts were trimmed to just `test:suite` (`scripts/run-suite.ts`) and `preflight`
 (`scripts/preflight-only.ts`, also updated to check phases instead of the removed flat actions
 list).
+
+## 17. First real phased run (2026-09-18) — three bugs found and fixed
+
+Running `npm run test:suite` for real against phase "create" (all 6 actions) surfaced three issues,
+none of them product bugs:
+
+1. **`waitForEnter` hung the whole process when a phase wasn't ready.** This script is invoked
+   unattended (no one at an interactive terminal to press Enter), so the pause never resolved —
+   Node just drained its event loop and exited once the "update" phase's preflight failed, silently
+   dropping the SKIPPED rows for that phase and the final combined report. Fixed: a not-ready phase
+   now records why and moves on immediately, no pause. Re-run the suite once the dashboard is fixed.
+2. **`create-contact`'s prospect-mapped fields (LinkedIn/Twitter/Annual Revenue) never got set on
+   the prospect.** `run-suite.ts` computed the expected values from `prospect-field-mappings.ts` but
+   never passed `extraProspectFields` into `setupSaleshandySequence` — so Refold correctly had
+   nothing to send, and the check failed with "no matching node found" (a harness gap, not a real
+   failure). Fixed: `extraProspectFields` is now aggregated across every phase's actions up front
+   (setup only runs once per workflow) and passed into setup.
+3. **`create-deal`'s `closedate` field is configured as "days from now" but resolves to an absolute
+   date.** Config value `30` resolved to `2026-10-18` in the real execution — comparing the raw
+   number against the resolved date always mismatched. Fixed in `verifyRefoldExecution`
+   (`src/core/test-runner.ts`): a numeric expected value against a date-shaped actual string is now
+   compared as "N days from now, ± 2 days" instead of exact equality. This also covers `create-task`'s
+   `Due In` → `hs_timestamp` field, which is configured the same way.
+
+**Still open**: `create-task` failed with "no matching node found" for `hs_task_subject`/
+`hs_task_type`/`hs_task_priority`/`hs_timestamp` even though `create-deal`'s node in the SAME
+execution resolved fine — unlike create-deal, this wasn't a value mismatch, no node had all four
+keys at all. Might be explained by fix #3 above if the real issue was `hs_timestamp` never matching
+during key-presence filtering for some other reason, or might be a separate issue — needs a re-run
+to tell which. `create-company`, `create-note`, and `record-email-activity` all matched cleanly on
+the same run, so the multi-action-per-execution mechanism itself (§13/§16) is confirmed working.
+
+## 18. Real root cause of the "no matching node" failures — reading nodes before the execution finished
+
+A second live run (after fixing #2/#3 above) got WORSE results, not better — `create-contact`,
+`create-deal`, and `create-task` all failed with "no matching node found", and even their CRM-side
+checks found nothing associated, despite `create-company` passing cleanly in the same run. Pulling
+the raw execution (`RefoldClient.getExecution`) showed why: this workflow's execution has **45
+internal nodes** — a branching rule-check for every one of the 11 possible actions plus the actual
+HubSpot API call nodes, not one tidy node per configured action. Re-running the exact same
+`verifyRefoldExecution` check against the SAME execution's nodes a few minutes later (after the
+whole run had finished) passed cleanly with zero code changes. The only difference was timing:
+`refold.getExecution()` was called right after `waitForExecution()` detected the execution
+existed, not after it had actually finished running — later-executing nodes (contact/deal/task
+happened to run later in this particular execution's order) still had empty `input_data` at that
+moment, while earlier ones (company/note/email) were already done. That reads as a false "no
+matching node", not a real product failure.
+
+**Fixed**: `RefoldClient.waitForExecutionCompletion()` polls until every node in the execution has
+reached a terminal status (`Success`/`Errored`/`Skipped`/`Failed`/`Aborted`), not just until the
+execution record exists. `verifyMultiActionExecution` (`src/core/test-runner.ts`) now calls this
+instead of a bare `getExecution()`. Default timeout is 3 minutes given the node count observed
+here — may need tuning for workflows with even more nodes.
+
+**Separate, genuinely interesting observation from the same raw dump** (not yet acted on): the
+`create-contact` HubSpot node appeared TWICE with identical input_data — one `Success`, one
+`Errored` — suggesting Refold retried the same create call and the retry failed (plausibly a
+HubSpot 409 on the now-existing contact's unique email). Harmless here since both attempts carried
+the same payload and our matcher's `.find()` happened to hit the `Success` one first, but if this
+duplicate-node pattern turns out to be consistent, it's worth understanding whether it's expected
+retry behavior or a real Refold-side inefficiency — not investigated further yet.
+
+## 19. CONFIRMED REAL FINDING: Create Deal / Create Company don't link to the Contact — workflow config gap
+
+**Root cause identified 2026-09-18, confirmed as a genuine workflow configuration gap, not a
+harness bug and not a Refold platform limitation.** Exported this workflow's raw JSON
+(`681368981acc0cbcd16295a9.json`) and traced the actual live node chain for deal creation
+(rule "2" → transform "82" → nodes 106/107 → **node 83, the real `create_deal` HubSpot call**):
+
+```json
+{
+  "dealname": "{{event.body.prospect.firstName}} {{event.body.prospect.lastName}}",
+  "closedate": "{{node.82.body.result.due_date}}",
+  "dealstage": "{{workflow.fields.Select Pipeline Stage (when to create)}}",
+  "pipeline": "{{workflow.fields.Select Pipeline (when to create)}}",
+  "additional_fields": "{{node.107.body}}",
+  "dealtype": "{{workflow.fields.Deal Type (while creating)}}",
+  "hs_priority": "{{workflow.fields.Deal Priority (while creating)}}"
+}
+```
+
+**No `associations` key at all.** Same for the `create_company` node (id `7`): just
+`name`/`domain`/`additional_fields`, no association. Confirmed via HubSpot's own API, checked in
+both directions, that the resulting Deal and Company objects have zero association to the Contact
+that triggered the workflow — they exist as orphaned records, invisible from the contact's HubSpot
+page.
+
+**This is a real capability gap on THIS workflow's config, not a Refold platform limitation** —
+proven by two other nodes in this exact same workflow that DO correctly associate:
+- The two `create_task` nodes use `"associations": [{"id": "{{node.X.body...contactID}}", "type": "TASK_TO_CONTACT"}]` (HubSpot's older v1-style batch association format).
+- The `create_note` node (id `52`) sets `"deal_id": "{{node.83.body.id}}"` — confirmed live via
+  HubSpot's association API that this note IS correctly linked to the deal (just not to the
+  contact directly, by design — it rides along on the deal's association instead, which then also
+  fails to reach the contact since the deal itself has no contact link).
+
+**Fix belongs in the Refold dashboard config for this workflow**, not in the harness: add an
+association block (contact ID from the earlier "search/create contact" node's output) to the
+`create_deal` and `create_company` nodes, matching the pattern already used on the task nodes.
+Nothing to change in `field-map.ts`/`object-verifiers.ts` — those correctly detected the gap by
+design (existence + association check, not just "did a create call succeed").
+
+## 20. Two-phase run completed end-to-end (2026-09-18) — phase "update" confirms and adds one finding
+
+First full real run of both phases, chained correctly via `--resume` (see §21) against the SAME
+contact phase "create" made. Results: `update-contact` PASS (clean, no config issues on the update
+path); `update-deal` and `update-company` both FAIL, but for two different, already-understood
+reasons — not new mysteries:
+
+- **`update-company`** fails only because of §19's association gap — `create-company` never linked
+  the company to the contact, so `update-company`'s result is unverifiable via our
+  association-based check regardless of whether the underlying HubSpot update call itself
+  succeeded. Same root cause, not a separate bug.
+- **`update-deal`** fails with "no matching node found in execution" — confirmed by tracing the
+  raw workflow JSON BEFORE running this: node `22` ("Search deal") filters HubSpot deals where
+  `dealname == {{event.body.prospect.email}}`, but `create_deal` (node `83`) actually sets
+  `dealname` to `{{firstName}} {{lastName}}` (e.g. "QA Test", not an email address). These can
+  never match, so the search always comes back empty and the update-deal branch never even reaches
+  its actual HubSpot update node. **This is a second, independent config bug in this workflow**,
+  unrelated to the association gap — the search field mapping itself is wrong.
+
+Both are real findings about this workflow's configuration, exactly what this suite exists to
+surface — not harness bugs, and per the working agreement, expected/acceptable outcomes as long as
+we know why.
+
+## 21. `--resume` mechanism for multi-phase runs across separate invocations
+
+Since `scripts/run-suite.ts` is invoked unattended (§18 — no interactive pause possible), a later
+phase that needs an earlier phase's real objects (e.g. "update" needs "create"'s contact) can't
+wait mid-script for a dashboard switch. Instead: `src/core/run-context-store.ts` persists the
+active `RunContext` (prospect email, sequence id, `setupStartedAt`, and a shared
+`reportTimestamp` — see §22) to `test-results/.active-context-<crm>-<workflowId>.json` right after
+setup completes. A later invocation with `--resume` loads that file instead of generating a fresh
+prospect, skips setup entirely, and triggers by replying a SECOND time to the same thread. Usage
+pattern: run phase 1's config, wait for it to finish, switch the dashboard, run phase 2's config
+(often a separate, narrower `harness.*.config.json` scoping just that phase) with `--resume`.
+
+## 22. Markdown reports per phase, shared timestamp across `--resume` invocations
+
+In addition to the timestamped JSON snapshots (§ near `writeSuiteReport`), each phase also gets a
+human-readable markdown report: `test-results/<reportTimestamp>/<workflowId>/phase-<name>/
+report.md` — an action/status/reason table, linking back to that phase's raw JSON. `reportTimestamp`
+is generated once (first non-`--resume` run) and carried inside the persisted `RunContext`, so a
+later `--resume` invocation reuses the SAME timestamp folder — phase "create" and phase "update"
+land side by side under one run's folder even though they ran as two separate script invocations
+with a dashboard change in between.
+
+## 23. Second workflow: "Prospect Outcome is updated in Saleshandy" — setup, not yet tested
+
+Workflow id `681368981acc0cbcd16295b0`. Confirmed live 2026-09-18: **disabled**, no fields
+configured yet (fresh, unlike "Reply is Received" which had prior real usage).
+
+**Same 9-action template as "Reply is Received"** (confirmed via response.json's field dump: same
+`Hubspot Action1`–`Action11` pattern, same Pipeline/Deal Type/Task fields), but its own Refold field
+ids — hence §21's field-map-registry refactor (a flat action-code-keyed map broke the moment a
+second workflow reused the same action codes). Field-to-property mappings
+(`src/workflows/hubspot/prospect-outcome-field-map.ts`) were derived directly from this workflow's
+own field list — same underlying HubSpot property keys as "Reply is Received" (`hs_lead_status`,
+`lifecyclestage`, `pipeline`, `dealstage`, etc.), not re-mined from execution history, since these
+are literally the same action-node types Refold reuses across workflows.
+
+**New mechanism this workflow has that "Reply is Received" doesn't**: each action has its own
+"Select Outcome (while ...)" config field (options: Uncategorized, Interested, Not Interested,
+Meeting Booked, Out of Office, Closed, Not Now, Do Not Contact). Confirmed via mining this
+workflow's own historical execution `6a76b9f74707c6b2a5c99541` (a real past COMPLETED run,
+predating anything we've done): a "Check Outcome" rule node per action compares the triggering
+event's outcome value against this field before the action node runs — e.g. a real historical run
+had outcome `"Interested"` checked against a `"Meeting Booked"` gate. **This field is a TRIGGER
+GATE, not a value sent to HubSpot** — confirmed it does NOT appear in any actual HubSpot node's
+`input_data`, so it must never be added to `expectedFields` (see
+`prospect-outcome-field-map.ts`'s `PROSPECT_OUTCOME_GATE_FIELD` map, kept separate for exactly this
+reason).
+
+**Open question before this can be tested — needs your input, not something I can determine from
+the code/config alone**: what SalesHandy action actually changes a prospect's outcome, and can we
+control WHICH outcome value it produces? Two data points so far, both circumstantial:
+- Our own recent "Reply is Received" test runs auto-generated a `create_note` body containing
+  `"Latest Outcome: Out of Office"` — suggesting SalesHandy auto-classifies at least some replies'
+  outcome, and possibly that our specific test reply text/pattern reliably produces "Out of Office"
+  as a side effect.
+- SalesHandy's own product surface has task-completion-with-outcome concepts (e.g. an MCP
+  `complete_task` capability) that may let us set an EXPLICIT, CHOSEN outcome, rather than relying
+  on whatever auto-classification a generic reply happens to produce.
+
+If reusing the existing reply-based trigger (same `setupSaleshandySequence` + `autoReply`
+mechanism, zero new SalesHandy-side work) reliably produces `outcome = "Out of Office"`, the
+cheapest path is to configure every action's "Select Outcome" gate to `"Out of Office"` and reuse
+the harness completely unchanged. If outcome needs to be deliberately controlled per test case
+(e.g. testing "Interested" vs. "Not Interested" gates specifically), a new trigger mechanism needs
+to be built — not yet attempted, and deliberately NOT tested live yet per instruction, to avoid
+guessing at a mechanism that might not work as assumed.
+
+`harness.config.json` has this workflow's create/update phases declared (same split rationale as
+§15's create/update conflict class), ready to preflight-check at any time via `npm run preflight` —
+confirmed live it correctly reports "workflow is disabled" for every action right now.
+
+## 24. Trigger mechanism resolved — direct API, no reply/IMAP needed
+
+The open question from §23 is resolved: SalesHandy's Open API has
+`PATCH /sequences/update-prospect-outcome` (`prospectEmails`, `outcomeName`, `sequenceId`,
+optional `dealValue`) — confirmed live 2026-09-18 that its accepted `outcomeName` values are
+exactly SalesHandy's own outcome names (`GET /unified-inbox/outcome` on the pyxis account returned
+`Uncategorized`, `Interested`, `Not Interested`, `Meeting Booked`, `Out of Office`, `Closed`,
+`Not Now`, `Do Not Contact` — letter-for-letter identical to Refold's "Select Outcome" dropdown
+options). This is a direct, deterministic trigger — no email send, no reply, no IMAP wait, unlike
+"Reply is Received". `SaleshandyClient.updateProspectOutcome()` and
+`src/core/test-runner.ts`'s `triggerOutcomeUpdate()` implement it.
+
+**Architecture**: `src/workflows/hubspot/outcome-gate-registry.ts` maps workflow id →
+`TriggerType` (`'reply'` default, `'outcome'` for this workflow) and workflow id → per-action
+"Select Outcome" gate field id. `scripts/run-suite.ts` reads each action's configured outcome via
+`preflightWorkflowAction`'s new `outcomeGateFieldId` param, and — critically — **requires every
+action in a phase to be gated to the SAME outcome value**, since one `updateProspectOutcome` call
+carries exactly one `outcomeName` and can't selectively fire a subset of a phase's actions. A
+mismatch (e.g. `create-contact` gated to "Interested" while `create-deal` is gated to "Meeting
+Booked") is caught at preflight time and the phase is SKIPPED with the exact mismatch shown,
+never silently running with only some actions actually firing.
+
+`RunContext.triggeredAt` replaces `repliedAt` as the generic "when did the trigger fire" timestamp
+used for the next Refold execution lookup — set by both `autoReply` and `triggerOutcomeUpdate`, so
+`verifyMultiActionExecution`'s `since` param works unchanged regardless of trigger mechanism.
+
+**Not yet tested live** (per instruction) — code is written and typechecked, `npm run preflight`
+confirms the workflow is disabled with nothing configured. Remaining before a real run:
+1. Enable the workflow in the dashboard (one-time manual step, same as always — see §12 for why
+   this isn't automated).
+2. Select the same 6/3 actions per phase as "Reply is Received" (same dashboard action-list
+   mechanism).
+3. Set every action's "Select Outcome (while ...)" field to the SAME value within each phase —
+   e.g. all 6 create-actions to "Interested", all 3 update-actions to (any single, possibly
+   different) outcome. `npm run preflight` will confirm readiness and flag any outcome mismatch
+   before a real run is attempted.
+
+## 25. Local opt-out for a workflow spec — independent of Refold's own `enabled` flag
+
+`HarnessWorkflowSpec.active` (default `true`) stops the harness from touching a workflow at all —
+skipped before any Refold API call, not just skipped at the action level. Added because relying on
+"it's disabled on the Refold dashboard" isn't a durable opt-out: if the workflow gets re-enabled
+there for an unrelated reason (someone else's work, a config revert), the harness would silently
+start touching it again. `active: false` is a decision made HERE, in version-controlled config, not
+inferred from live dashboard state. Used to park "Reply is Received" once its testing was complete,
+without deleting its field maps/phase declarations — they're still there for whenever it's revisited.
+
+## 26. Testing outcome gating itself: same-outcome vs. diff-outcome phases
+
+§24 confirmed actions fire correctly when their gate matches the trigger (the "positive" path). It
+does NOT prove the gate correctly EXCLUDES an action when the trigger's outcome does NOT match
+(the "negative" path) — a real, distinct thing to verify, since a real customer commonly configures
+different actions to different outcomes on purpose (that's the entire point of a per-action gate).
+
+**Mechanism** (`HarnessPhase.mode`, default `'same-outcome'`):
+- `'same-outcome'`: unchanged from §24 — every action must share one outcome, or the phase is
+  skipped with the mismatch shown.
+- `'diff-outcome'`: actions are DELIBERATELY gated to different outcomes. The harness fires exactly
+  ONE outcome (`triggerOutcome`, defaulting to whichever outcome the phase's `create-contact` or
+  `update-contact` action is configured with — the "anchor," since every other action's object
+  lookup depends on that contact existing) and computes, per action, whether it SHOULD fire
+  (`expectFire`): actions with no gate always fire; gated actions fire only if their configured
+  outcome matches `triggerOutcome`.
+
+**Verification needs no new logic** — just an inversion. `verify()`'s existing FAIL cases ("no
+matching node found", or a field-value mismatch reflecting a stale/absent state) ARE the desired
+outcome when an action shouldn't have fired. So `PhaseActionSpec.expectFire: false` simply flips
+the final `pass` boolean (`src/core/test-runner.ts`) rather than requiring a separate "prove
+absence" verifier method. `SuiteReportRow.expectFire` carries this through to reporting, so
+`report.ts`'s "What happened" column reads correctly either way (PASS meaning "correctly stayed
+silent" for `expectFire: false`, not "ran successfully").
+
+**Real confound found and fixed before running anything**: a diff-outcome test CANNOT reuse the
+same prospect/contact a same-outcome phase already ran against — objects from the earlier phase
+would already exist, making an action that correctly didn't fire THIS time look like it fired
+(detecting the stale object instead). **Every diff-outcome phase needs its own fresh, independent
+prospect.** Since the trigger is now a direct API call (§24), an extra fresh prospect costs almost
+nothing — this wasn't true for the reply-based trigger, where it would have meant a real extra
+email+IMAP cycle.
+
+**Structure — 4 independent specs, same Refold workflowId, sharing `harness.config.json`**:
+1. `contextKey: "prospect-outcome-same"` — `create-same-outcomes` → `update-same-outcomes` (the
+   original §24 chain, unchanged).
+2. `contextKey: "prospect-outcome-create-diff"` — one `create-diff-outcomes` phase alone, own
+   fresh prospect.
+3. `contextKey: "prospect-outcome-update-diff"` — `update-diff-seed` (same-outcome, populates a
+   full object graph for THIS spec's own fresh prospect) → `update-diff-outcomes` (diff-outcome).
+   The seed step exists because update-diff needs real pre-existing objects to test "did this
+   update correctly not touch it" against — it can't reuse spec 1's objects for the same staleness
+   reason above.
+
+Since specs 1–3 share the same `workflowId`, `HarnessWorkflowSpec.contextKey` was added to keep
+their saved `--resume` contexts (`src/core/run-context-store.ts`) from colliding — the store now
+keys on `contextKey ?? workflowId`, not `workflowId` alone.
+
+`npm run preflight` is mode-aware: for `diff-outcome` phases it resolves and prints the trigger
+outcome plus a per-action FIRE/NOT-fire prediction, and warns (doesn't block) if every gated action
+happens to share the same outcome — confirmed live 2026-09-18 that this exact situation is caught:
+`create-diff-outcomes` currently reports all 6 actions gated to "Interested" (unchanged from the
+same-outcome dashboard config) with the warning "won't actually exercise a gating difference yet."
+**Still needed before this spec is meaningful**: reconfigure at least one create-action's "Select
+Outcome" to something other than "Interested" on the dashboard. `update-same-outcomes` and
+`update-diff-outcomes` also still need their 3 actions selected on the dashboard at all.
+
+## 27. First live attempt at `create-same-outcomes` — the outcome-update trigger never reached Refold
+
+Ran 2026-09-18 (`harness.create-same.config.json`). `SaleshandyClient.updateProspectOutcome()`
+itself succeeded — logged, no error, HTTP 200. `RefoldClient.waitForExecution` then timed out
+after 120s. **Confirmed this is a real "nothing fired" case, not a slow/late execution or a polling
+bug**: queried Refold's execution history for this workflow directly afterward — the 10 most recent
+executions are all from **August**, none from today at all.
+
+Also fixed a genuinely misleading error message while debugging this: `waitForExecution`'s timeout
+error said "Did the reply actually get sent/detected?" — written back when only the reply-based
+trigger existed, and confusingly wrong once the same function started being used for the
+outcome-based trigger too (§24). Now trigger-mechanism-agnostic.
+
+**Leading theory, not yet confirmed**: timing. `updateProspectOutcome` was called only ~4 seconds
+after `createSequence`/`activateSequence`, unlike the reply-based trigger which naturally waits for
+the actual send to complete first (`autoReply` polls IMAP for the real outbound email before
+replying). It's possible SalesHandy requires the prospect to be fully "active" in a running
+sequence — not just freshly activated — before an outcome change is treated as real enough to
+notify Refold. Could not independently confirm via SalesHandy's own API whether the outcome was
+even recorded on their side — no "get prospect"/list-prospects-with-outcome endpoint found under
+their documented Sequences category.
+
+**Not yet tried**: adding a wait (fixed delay, or polling for "prospect confirmed active/sent-to")
+between setup and firing the outcome update, mirroring how `autoReply` already waits for the real
+send. This is the natural next experiment before concluding anything further about whether the
+direct-API trigger mechanism (§24) actually works for this workflow.

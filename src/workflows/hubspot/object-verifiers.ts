@@ -1,4 +1,5 @@
-import { createHubspotClientFromEnv } from '../../clients/crms/hubspot/hubspot-client.js';
+import { createHubspotClientFromEnv, type HubspotClient } from '../../clients/crms/hubspot/hubspot-client.js';
+import { isRelativeDayField, relativeDayMatches } from '../../core/test-runner.js';
 import type { CrmVerifier, FieldMismatch, RunContext, VerificationResult } from '../../core/types.js';
 
 /**
@@ -19,8 +20,44 @@ import type { CrmVerifier, FieldMismatch, RunContext, VerificationResult } from 
  * only confirms existence: the object was created/associated at all. A
  * non-empty list also diffs those properties against the test case's
  * expected values, same as the Contact verifier.
+ *
+ * `anchorTypes` (default just `['contacts']`) lists which object(s) to walk
+ * the association FROM, tried in order until one finds something.
+ * Confirmed live 2026-09-22: this workflow's Note/Email-log actions attach
+ * to the Contact by default, but attach to a Deal or Company instead if
+ * that sibling action also created one in the same run (an intentional,
+ * confirmed behavior — see execution-plan.md) — checking contact-only made
+ * this verifier report "none found" on runs where it correctly attached
+ * elsewhere instead.
  */
-function createAssociatedObjectVerifier(objectType: string, propertiesToCheck: string[]): CrmVerifier {
+async function findAssociatedIdsViaAnyAnchor(
+  client: HubspotClient,
+  contactId: string,
+  objectType: string,
+  anchorTypes: string[],
+): Promise<string[]> {
+  for (const anchor of anchorTypes) {
+    if (anchor === 'contacts') {
+      // eslint-disable-next-line no-await-in-loop
+      const ids = await client.waitForAssociatedObject(contactId, objectType, { timeoutMs: 15_000 });
+      if (ids.length > 0) return ids;
+      continue;
+    }
+    // eslint-disable-next-line no-await-in-loop
+    const anchorIds = await client.getAssociatedObjectIds(contactId, anchor);
+    if (anchorIds.length === 0) continue;
+    // eslint-disable-next-line no-await-in-loop
+    const ids = await client.getAssociatedObjectIds(anchorIds[0]!, objectType, anchor);
+    if (ids.length > 0) return ids;
+  }
+  return [];
+}
+
+function createAssociatedObjectVerifier(
+  objectType: string,
+  propertiesToCheck: string[],
+  anchorTypes: string[] = ['contacts'],
+): CrmVerifier {
   const client = createHubspotClientFromEnv();
 
   return {
@@ -35,7 +72,7 @@ function createAssociatedObjectVerifier(objectType: string, propertiesToCheck: s
         };
       }
 
-      const associatedIds = await client.waitForAssociatedObject(contact.id, objectType);
+      const associatedIds = await findAssociatedIdsViaAnyAnchor(client, contact.id, objectType, anchorTypes);
       if (associatedIds.length === 0) {
         return {
           pass: false,
@@ -50,11 +87,27 @@ function createAssociatedObjectVerifier(objectType: string, propertiesToCheck: s
       }
 
       const expectedFields = context.testCase.expectedFields;
-      const properties = await client.getObjectProperties(objectType, associatedIds[0]!, propertiesToCheck);
+      // Fetch whatever expectedFields actually needs, not just the static
+      // propertiesToCheck list passed at verifier-construction time — the
+      // live dashboard config can add extra keys (e.g. deal custom fields
+      // under "additional_fields") that propertiesToCheck doesn't know
+      // about, and a property HubSpot never returns reads as undefined
+      // regardless of its real value.
+      const properties = await client.getObjectProperties(objectType, associatedIds[0]!, Object.keys(expectedFields));
 
       const mismatches: FieldMismatch[] = [];
       for (const [property, expected] of Object.entries(expectedFields)) {
         const actual = properties[property];
+        // Same "N days from now" tolerance as the Refold-layer check (see
+        // test-runner.ts's isRelativeDayField) — without this, a relative-day
+        // config value (e.g. "10") never matches the absolute date HubSpot
+        // actually stores (e.g. "2026-10-02"), even when it's exactly right.
+        if (isRelativeDayField(expected, actual)) {
+          if (!relativeDayMatches(expected as number, actual as string)) {
+            mismatches.push({ field: property, expected, actual });
+          }
+          continue;
+        }
         if (String(actual).toLowerCase() !== String(expected).toLowerCase()) {
           mismatches.push({ field: property, expected, actual });
         }
@@ -80,10 +133,12 @@ export function createHubspotTaskVerifier(): CrmVerifier {
 
 export function createHubspotNoteVerifier(): CrmVerifier {
   // No dashboard-configured fields (auto-generated body, §13) — existence only.
-  return createAssociatedObjectVerifier('notes', []);
+  // May attach to contact, deal, or company — see anchorTypes docstring.
+  return createAssociatedObjectVerifier('notes', [], ['contacts', 'deals', 'companies']);
 }
 
 export function createHubspotEmailLogVerifier(): CrmVerifier {
   // No dashboard-configured fields (auto-generated from the real sent email, §13) — existence only.
-  return createAssociatedObjectVerifier('emails', []);
+  // May attach to contact, deal, or company — see anchorTypes docstring.
+  return createAssociatedObjectVerifier('emails', [], ['contacts', 'deals', 'companies']);
 }

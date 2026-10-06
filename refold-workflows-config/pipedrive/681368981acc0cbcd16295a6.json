@@ -1,0 +1,6223 @@
+{
+  "name": "Email is Opened in Saleshandy",
+  "description": "Triggers when any of your sequence emails get opened.",
+  "icon": "",
+  "edges": [
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "3",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "7e2635ab-616d-5666-555c-44db69f2cbff"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "8",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "ab0ffc1d-b4b1-fbff-6d93-e94172fa4508"
+    },
+    {
+      "source": "8",
+      "target": "19",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "0a8b4736-9a4c-1472-578f-97276211065f"
+    },
+    {
+      "source": "36",
+      "target": "37",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "3253d72a-d371-fdd2-725d-274308c91bd4"
+    },
+    {
+      "source": "39",
+      "target": "22",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "49bea161-5648-bf67-7969-38245a1b4c86"
+    },
+    {
+      "source": "40",
+      "target": "41",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5debab16-ba65-fbd3-ac86-fd600dd75b1d"
+    },
+    {
+      "source": "43",
+      "target": "24",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "e38ed737-5ac9-b361-1cf6-a634e767ddaf"
+    },
+    {
+      "source": "44",
+      "target": "45",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2df09349-9735-0357-f06b-8917a694da04"
+    },
+    {
+      "source": "48",
+      "target": "49",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "57e5c7ef-526a-9c32-e98b-76629504e6ab"
+    },
+    {
+      "source": "52",
+      "target": "53",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2b579ed0-e135-0720-553a-9266f86ef6ee"
+    },
+    {
+      "source": "55",
+      "target": "23",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "68e18218-0862-c715-6592-7e5adff70b19"
+    },
+    {
+      "source": "56",
+      "target": "57",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c960d1a3-1c51-9ab4-d851-bdcbee5ba9c8"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "60",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "89c5b0a2-b78b-7d52-6fcb-5a612fa48cc6"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "61",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c3322ce0-af14-e4ef-8e5c-18f0426c16f9"
+    },
+    {
+      "source": "63",
+      "target": "56",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "cb77d378-546f-0c34-ca4b-5390833ca406"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "63",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f93539d6-70fd-5d5e-e51d-8fd47ad2fe45"
+    },
+    {
+      "source": "62",
+      "target": "44",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "ebfb9a34-2f10-1638-7d79-3426fdbc2381"
+    },
+    {
+      "source": "64",
+      "target": "36",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "528b3ea1-3d30-c181-c890-7a877e34175f"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "64",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "473e74da-d869-814e-c5fb-c5a7f5734761"
+    },
+    {
+      "source": "65",
+      "target": "52",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "04d0f1e1-7bfb-4d47-258c-a5aa0e67c4fd"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "65",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "cc8720c1-0d72-9e8b-9982-12892593c109"
+    },
+    {
+      "source": "66",
+      "target": "40",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a6128974-6b60-4707-5f4d-4ce32601d718"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "62",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a4b4ee21-3785-a0c4-585d-20c266844e6a"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "66",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "167b4c31-54a8-18dc-08ab-0522d4988265"
+    },
+    {
+      "source": "68",
+      "target": "48",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "601140b3-4823-0699-90c1-d117680281fe"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "67",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "b5c43a68-a530-7aa6-fc30-e57bd41616e3"
+    },
+    {
+      "source": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "target": "68",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "84f650dc-b72d-a70d-a3c9-7c044167f304"
+    },
+    {
+      "source": "30",
+      "target": "31",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5462b848-fc1b-60cb-cee6-f7fb41474204"
+    },
+    {
+      "source": "61",
+      "target": "71",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5318d038-7e23-be46-8389-4548d3b975d5"
+    },
+    {
+      "source": "71",
+      "target": "72",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "7d4212c7-cd21-b3e3-0a8e-f511251e5abe"
+    },
+    {
+      "source": "75",
+      "target": "76",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "27fc68cd-4cde-0f8e-d999-edc5aa3752d3"
+    },
+    {
+      "source": "60",
+      "target": "75",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "55f38379-28ad-01f6-745b-bfeb2c71e7b6"
+    },
+    {
+      "source": "83",
+      "target": "84",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "047ae6ef-e737-6bb4-31ee-79fedc249cb1"
+    },
+    {
+      "source": "80",
+      "target": "81",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5cd7095f-7dc1-3084-fac2-769289da20d7"
+    },
+    {
+      "source": "3",
+      "target": "80",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "9f80a65f-80bb-fca6-011d-9cf63cab77ee"
+    },
+    {
+      "source": "21",
+      "target": "85",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "8ff1459f-b402-61b9-f876-d00aed27a154"
+    },
+    {
+      "source": "33",
+      "target": "87",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "50c96f6e-e7cf-799e-bc72-5a21356a13b0"
+    },
+    {
+      "source": "74",
+      "target": "88",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f9daac61-61b3-d6f9-52ec-74d93a538c21"
+    },
+    {
+      "source": "57",
+      "target": "89",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "7b16b626-6719-a18b-4b5b-65cec10c4634"
+    },
+    {
+      "source": "89",
+      "target": "59",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "9ed21fcd-b313-36ae-9908-1089b21cc194"
+    },
+    {
+      "source": "72",
+      "target": "90",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f829f450-596b-f81b-79cf-cdafee9cb838"
+    },
+    {
+      "source": "45",
+      "target": "91",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2a659d3f-b8c9-433e-8bc6-34cfbd2c186f"
+    },
+    {
+      "source": "91",
+      "target": "47",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "e53e405a-a34a-9a86-3433-c416ea10c109"
+    },
+    {
+      "source": "37",
+      "target": "92",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d417dfbf-eb69-2859-8500-720caa0c1fce"
+    },
+    {
+      "source": "92",
+      "target": "39",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d91f9163-e5ae-e397-9178-acfca9880bfc"
+    },
+    {
+      "source": "53",
+      "target": "93",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "b6c4dd02-a7b7-b105-c52c-b71e461ac753"
+    },
+    {
+      "source": "93",
+      "target": "55",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "8541518c-6f32-d8ef-6fc8-0dff2cdd61f0"
+    },
+    {
+      "source": "41",
+      "target": "94",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "df038358-30ab-6c84-ef71-c5771fde035f"
+    },
+    {
+      "source": "94",
+      "target": "43",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2cd363e8-1d75-2335-37d5-aae1d8eb3ff0"
+    },
+    {
+      "source": "49",
+      "target": "95",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "66a0f957-76d1-d58a-a2d1-5e43deed103a"
+    },
+    {
+      "source": "95",
+      "target": "51",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d2ae3894-e5d5-b3d1-353d-e50c89a3ff41"
+    },
+    {
+      "source": "67",
+      "target": "96",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "53452877-a2e9-4ffc-b120-c7843ea6ee62"
+    },
+    {
+      "source": "96",
+      "target": "97",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "25eb4fc3-e467-4edf-b9e0-662cd475813e"
+    },
+    {
+      "source": "97",
+      "target": "25",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c5a7d358-66c3-442e-8f68-81cab88842dc"
+    },
+    {
+      "source": "81",
+      "target": "98",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fede0fe5-b5f0-46c5-ab8a-805fd26cbf49"
+    },
+    {
+      "source": "98",
+      "target": "99",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f1c91e9f-cb6c-4b13-a08b-99f2de27e477"
+    },
+    {
+      "source": "99",
+      "target": "82",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "845db0cc-1e0c-484f-b26a-e8e4d6bf686d"
+    },
+    {
+      "source": "76",
+      "target": "100",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "6dd120c3-7de3-43ab-ba4e-f2da9a4447a8"
+    },
+    {
+      "source": "100",
+      "target": "101",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a39898ec-0aa7-4156-ac2a-c8d53059f2fe"
+    },
+    {
+      "source": "101",
+      "target": "77",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "e604487f-fd96-473e-b5bc-2e80d282d62f"
+    },
+    {
+      "source": "90",
+      "target": "102",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "e5892e2a-b1b2-41be-b9d4-047e16c8fc00"
+    },
+    {
+      "source": "102",
+      "target": "103",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "4575d319-5196-4d1c-955a-020c32d8fdb1"
+    },
+    {
+      "source": "103",
+      "target": "73",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f11c5a52-2cba-4ce4-9a48-19b29b7ecd63"
+    },
+    {
+      "source": "69",
+      "target": "104",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "cd720944-6c9e-4edc-86ac-ce28968b3cd3"
+    },
+    {
+      "source": "104",
+      "target": "17",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "6324c0f9-6642-4154-98fb-0825d4db3940"
+    },
+    {
+      "source": "78",
+      "target": "105",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "eb403596-d7d6-4261-9550-d6eb749d7834"
+    },
+    {
+      "source": "105",
+      "target": "79",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "63645290-8928-4e72-bb1e-cc98f81b0c6a"
+    },
+    {
+      "source": "59",
+      "target": "106",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a8228ca1-19da-4ae0-a9a2-00458d53b695"
+    },
+    {
+      "source": "106",
+      "target": "107",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "093126fd-951b-4e44-998f-1d9f9b747644"
+    },
+    {
+      "source": "47",
+      "target": "108",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "ba3578c6-dede-4344-b39f-9e165284bcb1"
+    },
+    {
+      "source": "108",
+      "target": "109",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "4281bd0b-8799-49b1-899d-2cd00b0f2ebb"
+    },
+    {
+      "source": "109",
+      "target": "70",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "6f4551f2-ac58-4c1a-9df4-234628c9a729"
+    },
+    {
+      "source": "51",
+      "target": "110",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5c325939-32ff-44d0-a231-29fba645638e"
+    },
+    {
+      "source": "110",
+      "target": "111",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "da42e83f-7575-42a8-ac8e-7f1517c7072e"
+    },
+    {
+      "source": "111",
+      "target": "26",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c78dab12-590e-4726-912a-c6fbc832c708"
+    },
+    {
+      "source": "107",
+      "target": "112",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-107-112"
+    },
+    {
+      "source": "112",
+      "target": "21",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-112-21"
+    },
+    {
+      "source": "82",
+      "target": "113",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-82-113"
+    },
+    {
+      "source": "113",
+      "target": "30",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-113-30"
+    },
+    {
+      "source": "73",
+      "target": "114",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-73-114"
+    },
+    {
+      "source": "114",
+      "target": "33",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-114-33"
+    },
+    {
+      "source": "77",
+      "target": "115",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-77-115"
+    },
+    {
+      "source": "115",
+      "target": "69",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-115-69"
+    },
+    {
+      "source": "73",
+      "target": "116",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-73-116"
+    },
+    {
+      "source": "116",
+      "target": "74",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-116-74"
+    },
+    {
+      "source": "77",
+      "target": "117",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-77-117"
+    },
+    {
+      "source": "117",
+      "target": "78",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-117-78"
+    },
+    {
+      "source": "82",
+      "target": "118",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-82-118"
+    },
+    {
+      "source": "118",
+      "target": "83",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fix-118-83"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "412e6f59-2564-49a9-8535-b7f6e048c848",
+      "incoming_nodes": [],
+      "outgoing_nodes": [
+        "3",
+        "8",
+        "60",
+        "61",
+        "63",
+        "64",
+        "65",
+        "62",
+        "66",
+        "67",
+        "68"
+      ],
+      "data": null,
+      "type": "start",
+      "position": {
+        "x": 832,
+        "y": -48
+      },
+      "name": "Start",
+      "status": "Ready",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "triggers": [
+        {
+          "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+          "associated_application_id": "681368981acc0cbcd16294c8",
+          "application": "custom",
+          "_id": "6a4e0f3668f99abb0b49d910"
+        }
+      ],
+      "trigger_cron": null,
+      "event_to_dynamic_var_map": []
+    },
+    {
+      "id": "3",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "80"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -1376,
+        "y": 240
+      },
+      "name": "rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "create-lead",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "80"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "8",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "19"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 416,
+        "y": 240
+      },
+      "name": "rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "update-lead",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "19"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "17",
+      "incoming_nodes": [
+        "104"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -608,
+        "y": 1520
+      },
+      "name": "Create Deal",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "title": "{{event.body.prospect.email}}",
+        "value": "",
+        "currency": "",
+        "user_id": "",
+        "person_id": "{{node.69.body.data.id}}",
+        "org_id": "",
+        "pipeline_id": "{{workflow.fields.Select Pipeline (Applicable for Deals)}}",
+        "stage_id": "{{workflow.fields.Select Pipeline Stage (Applicable for Deals)}}",
+        "status": "",
+        "expected_close_date": "",
+        "probability": "",
+        "lost_reason": "",
+        "visible_to": "",
+        "add_time": "",
+        "custom_fields": "{{node.104.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "create_deal",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "19",
+      "incoming_nodes": [
+        "8"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 400,
+        "y": 512
+      },
+      "name": "Update Lead",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "21",
+      "incoming_nodes": [
+        "112"
+      ],
+      "outgoing_nodes": [
+        "85"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 976,
+        "y": 1232
+      },
+      "name": "Update Person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.89.body.result.person_id}}",
+        "name": "{{node.112.body.contact_name}}",
+        "email": "[{\"value\": \" {{event.body.prospect.email}} \", \"primary\": \"true\", \"label\": \"main\"}]",
+        "phone": "",
+        "owner_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.107.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "update_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "22",
+      "incoming_nodes": [
+        "39"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1296,
+        "y": 1232
+      },
+      "name": "pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.92.body.result.dealID}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "delete_deal",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "23",
+      "incoming_nodes": [
+        "55"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1584,
+        "y": 1232
+      },
+      "name": "Delete Person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.93.body.result.personID}}",
+        "name": "",
+        "add_time": "",
+        "owner_id": "",
+        "visible_to": "",
+        "custom_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "delete_contact",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "24",
+      "incoming_nodes": [
+        "43"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1872,
+        "y": 1232
+      },
+      "name": "Delete Org",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.94.body.result.organisationID}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "delete_organization",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "25",
+      "incoming_nodes": [
+        "97"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 2160,
+        "y": 496
+      },
+      "name": "pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "name": "{{event.body.prospect.company}}",
+        "add_time": "",
+        "owner_id": 0,
+        "visible_to": "",
+        "custom_fields": "{{node.97.body}}",
+        "id": "",
+        "email": "",
+        "phone": "",
+        "marketing_status": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "create_organization",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "26",
+      "incoming_nodes": [
+        "111"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 2448,
+        "y": 1232
+      },
+      "name": "pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.95.body.result.organisationID}}",
+        "name": "{{event.body.prospect.company}}",
+        "owner_id": 0,
+        "visible_to": "",
+        "custom_fields": "{{node.111.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "update_organization",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "30",
+      "incoming_nodes": [
+        "113"
+      ],
+      "outgoing_nodes": [
+        "31"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -1232,
+        "y": 1296
+      },
+      "name": "Create a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "name": "{{node.113.body.contact_name}}",
+        "email": "[{\"value\": \"{{event.body.prospect.email}}\", \"primary\": \"true\", \"label\": \"main\"}]",
+        "phone": "",
+        "owner_id": 0,
+        "org_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.99.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "31",
+      "incoming_nodes": [
+        "30"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -1232,
+        "y": 1520
+      },
+      "name": "Create a lead",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "organization_id": "",
+        "expected_close_date": "",
+        "value": "",
+        "title": "{{event.body.prospect.email}}",
+        "person_id": "{{node.30.body.data.id}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_lead",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "33",
+      "incoming_nodes": [
+        "114"
+      ],
+      "outgoing_nodes": [
+        "87"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 0,
+        "y": 1296
+      },
+      "name": "Create a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "name": "{{node.114.body.contact_name}}",
+        "email": "[{ \"value\": \"{{event.body.prospect.email}}\", \"primary\": \"true\", \"label\": \"main\" }]",
+        "phone": "",
+        "owner_id": 0,
+        "org_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.103.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "36",
+      "incoming_nodes": [
+        "64"
+      ],
+      "outgoing_nodes": [
+        "37"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1296,
+        "y": 496
+      },
+      "name": "Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "37",
+      "incoming_nodes": [
+        "36"
+      ],
+      "outgoing_nodes": [
+        "92"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1296,
+        "y": 672
+      },
+      "name": "Find a deal",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.36.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/deals/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"title\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "title",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "38",
+      "incoming_nodes": [],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "executecodenode",
+      "position": {
+        "x": 1296,
+        "y": 1776
+      },
+      "name": "Extract Deal ID",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* The Return type of the method must be a \n* result object.\n* \n* Example {\"result\": <anything>}\n*/\nfunction writeYourCode(params){\n//Write Your code here\nfor(const deal of params.allDeals){\n        if(deal.item.title===params.requiredDeal){\n            return {\"result\": {dealID: deal.item.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}\nlet stdin = '';\n    process.stdin.on('data', data => {\n    stdin += data;\n});\nprocess.stdin.on('end', () => {\n    const inputObject = JSON.parse(stdin.trim());\n    const params = inputObject.params;\n    console.log(writeYourCode(params));\n});",
+        "memory": 1024,
+        "code_language": 63,
+        "time_limit": 5,
+        "input_string": "{\"allDeals\": \"{{node.37.body.data.items}}\", \"requiredDeal\": \"{{event.body.prospect.email}}\"}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "39",
+      "incoming_nodes": [
+        "92"
+      ],
+      "outgoing_nodes": [
+        "22"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 1296,
+        "y": 1040
+      },
+      "name": "Deal exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.92.body.result.dealID}}",
+            "compare_value": null,
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "22"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "40",
+      "incoming_nodes": [
+        "66"
+      ],
+      "outgoing_nodes": [
+        "41"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1872,
+        "y": 496
+      },
+      "name": "Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "41",
+      "incoming_nodes": [
+        "40"
+      ],
+      "outgoing_nodes": [
+        "94"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1872,
+        "y": 672
+      },
+      "name": "Find an organisation",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.40.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/organizations/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.company}}\",\"fields\":[\"name\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.company}}",
+          "fields": "name",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "42",
+      "incoming_nodes": [],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "executecodenode",
+      "position": {
+        "x": 1856,
+        "y": 1776
+      },
+      "name": "Extract Org ID",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* The Return type of the method must be a \n* result object.\n* \n* Example {\"result\": <anything>}\n*/\nfunction writeYourCode(params){\n//Write Your code here\nfor(const organisation of params.allOrganisation){\n        if(organisation.item.name===params.requiredOrganisation){\n            return {\"result\": {organisationID: organisation.item.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}\nlet stdin = '';\n    process.stdin.on('data', data => {\n    stdin += data;\n});\nprocess.stdin.on('end', () => {\n    const inputObject = JSON.parse(stdin.trim());\n    const params = inputObject.params;\n    console.log(writeYourCode(params));\n});",
+        "memory": 1024,
+        "code_language": 63,
+        "time_limit": 5,
+        "input_string": "{\"allOrganisation\": \"{{node.41.body.data.items}}\", \"requiredOrganisation\": \"{{event.body.prospect.company}}\"}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "43",
+      "incoming_nodes": [
+        "94"
+      ],
+      "outgoing_nodes": [
+        "24"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 1872,
+        "y": 1056
+      },
+      "name": "Org exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.94.body.result.organisationID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "24"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "44",
+      "incoming_nodes": [
+        "62"
+      ],
+      "outgoing_nodes": [
+        "45"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 688,
+        "y": 496
+      },
+      "name": "Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "45",
+      "incoming_nodes": [
+        "44"
+      ],
+      "outgoing_nodes": [
+        "91"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 688,
+        "y": 688
+      },
+      "name": "Find a deal",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.44.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/deals/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"title\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "title",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "46",
+      "incoming_nodes": [],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "executecodenode",
+      "position": {
+        "x": 688,
+        "y": 1776
+      },
+      "name": "Extract Deal ID",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* The Return type of the method must be a \n* result object.\n* \n* Example {\"result\": <anything>}\n*/\nfunction writeYourCode(params){\n//Write Your code here\nfor(const deal of params.allDeals){\n        if(deal.item.title===params.requiredDeal){\n            return {\"result\": {dealID: deal.item.id, personID: deal.item.person.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}\nlet stdin = '';\n    process.stdin.on('data', data => {\n    stdin += data;\n});\nprocess.stdin.on('end', () => {\n    const inputObject = JSON.parse(stdin.trim());\n    const params = inputObject.params;\n    console.log(writeYourCode(params));\n});",
+        "memory": 1024,
+        "code_language": 63,
+        "time_limit": 5,
+        "input_string": "{\"allDeals\": \"{{node.45.body.data.items}}\", \"requiredDeal\": \"{{event.body.prospect.email}}\"}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "47",
+      "incoming_nodes": [
+        "91"
+      ],
+      "outgoing_nodes": [
+        "108"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 688,
+        "y": 1024
+      },
+      "name": "Copy - Deal exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.91.body.result.dealID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "108"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "48",
+      "incoming_nodes": [
+        "68"
+      ],
+      "outgoing_nodes": [
+        "49"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 2448,
+        "y": 496
+      },
+      "name": "Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "49",
+      "incoming_nodes": [
+        "48"
+      ],
+      "outgoing_nodes": [
+        "95"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 2448,
+        "y": 688
+      },
+      "name": "Find an organisation",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.48.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/organizations/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.company}}\",\"fields\":[\"name\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.company}}",
+          "fields": "name",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "50",
+      "incoming_nodes": [],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "executecodenode",
+      "position": {
+        "x": 2448,
+        "y": 1776
+      },
+      "name": "Extract Org ID",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* The Return type of the method must be a \n* result object.\n* \n* Example {\"result\": <anything>}\n*/\nfunction writeYourCode(params){\n//Write Your code here\nfor(const organisation of params.allOrganisation){\n        if(organisation.item.name===params.requiredOrganisation){\n            return {\"result\": {organisationID: organisation.item.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}\nlet stdin = '';\n    process.stdin.on('data', data => {\n    stdin += data;\n});\nprocess.stdin.on('end', () => {\n    const inputObject = JSON.parse(stdin.trim());\n    const params = inputObject.params;\n    console.log(writeYourCode(params));\n});",
+        "memory": 1024,
+        "code_language": 63,
+        "time_limit": 5,
+        "input_string": "{\"allOrganisation\": \"{{node.49.body.data.items}}\", \"requiredOrganisation\": \"{{event.body.prospect.company}}\"}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "51",
+      "incoming_nodes": [
+        "95"
+      ],
+      "outgoing_nodes": [
+        "110"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 2448,
+        "y": 1040
+      },
+      "name": "Org exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.95.body.result.organisationID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "110"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "52",
+      "incoming_nodes": [
+        "65"
+      ],
+      "outgoing_nodes": [
+        "53"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1584,
+        "y": 496
+      },
+      "name": "Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "53",
+      "incoming_nodes": [
+        "52"
+      ],
+      "outgoing_nodes": [
+        "93"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 1584,
+        "y": 672
+      },
+      "name": "Find a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.52.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/persons/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"email\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "email",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "54",
+      "incoming_nodes": [],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "executecodenode",
+      "position": {
+        "x": 1584,
+        "y": 1776
+      },
+      "name": "Extract Person ID",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* The Return type of the method must be a \n* result object.\n* \n* Example {\"result\": <anything>}\n*/\nfunction writeYourCode(params){\n//Write Your code here\nfor(const person of params.allPerson){\n    for (const email of person.item.emails)\n        if(email===params.requiredPersonEmail){\n            return {\"result\": {personID: person.item.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}\nlet stdin = '';\n    process.stdin.on('data', data => {\n    stdin += data;\n});\nprocess.stdin.on('end', () => {\n    const inputObject = JSON.parse(stdin.trim());\n    const params = inputObject.params;\n    console.log(writeYourCode(params));\n});",
+        "memory": 1024,
+        "code_language": 63,
+        "time_limit": 5,
+        "input_string": "{\"allPerson\": \"{{node.53.body.data.items}}\", \"requiredPersonEmail\": \"{{event.body.prospect.email}}\"}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "55",
+      "incoming_nodes": [
+        "93"
+      ],
+      "outgoing_nodes": [
+        "23"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 1584,
+        "y": 1040
+      },
+      "name": "Person Exist exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.93.body.result.personID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "23"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "56",
+      "incoming_nodes": [
+        "63"
+      ],
+      "outgoing_nodes": [
+        "57"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 992,
+        "y": 512
+      },
+      "name": "Copy - Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "57",
+      "incoming_nodes": [
+        "56"
+      ],
+      "outgoing_nodes": [
+        "89"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 992,
+        "y": 672
+      },
+      "name": "Copy - Find a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.56.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/persons/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"email\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "email",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "59",
+      "incoming_nodes": [
+        "89"
+      ],
+      "outgoing_nodes": [
+        "106"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 992,
+        "y": 1040
+      },
+      "name": "Person exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.89.body.result.person_id}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "106"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "60",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "75"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -752,
+        "y": 240
+      },
+      "name": "Copy - rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "75"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "61",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "71"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -144,
+        "y": 240
+      },
+      "name": "Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "create-person",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "71"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "62",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "44"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 704,
+        "y": 240
+      },
+      "name": "Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "44"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "63",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "56"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 976,
+        "y": 240
+      },
+      "name": "Copy - Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "update-person",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "56"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "64",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "36"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 1280,
+        "y": 240
+      },
+      "name": "Copy - Copy - Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "delete-deal",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "36"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "65",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "52"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 1568,
+        "y": 240
+      },
+      "name": "Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "delete-person",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "52"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "66",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "40"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 1856,
+        "y": 240
+      },
+      "name": "Copy - Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "delete-org",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "40"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "67",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "96"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 2144,
+        "y": 240
+      },
+      "name": "Copy - Copy - Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "create-org",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "96"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "68",
+      "incoming_nodes": [
+        "412e6f59-2564-49a9-8535-b7f6e048c848"
+      ],
+      "outgoing_nodes": [
+        "48"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 2448,
+        "y": 240
+      },
+      "name": "Copy - Copy - Copy - Rule",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action1}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action2}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action3}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action4}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action5}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action6}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action7}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action8}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action9}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action10}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Select Pipedrive Action11}}",
+            "compare_value": "update-org",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "48"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "69",
+      "incoming_nodes": [
+        "115"
+      ],
+      "outgoing_nodes": [
+        "104"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -608,
+        "y": 1296
+      },
+      "name": "Copy - Create a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "name": "{{node.115.body.contact_name}}",
+        "email": "[{\"value\": \"{{event.body.prospect.email}}\", \"primary\": \"true\", \"label\": \"main\"}]",
+        "phone": "",
+        "owner_id": 0,
+        "org_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.101.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "70",
+      "incoming_nodes": [
+        "109"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 688,
+        "y": 1232
+      },
+      "name": "pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.91.body.result.dealID}}",
+        "title": "{{event.body.prospect.email}}",
+        "value": "",
+        "currency": "",
+        "user_id": "",
+        "person_id": "",
+        "org_id": "",
+        "pipeline_id": "{{workflow.fields.Select Pipeline (Applicable for Deals)}}",
+        "stage_id": "{{workflow.fields.Select Pipeline Stage (Applicable for Deals)}}",
+        "status": "",
+        "expected_close_date": "",
+        "probability": "",
+        "lost_reason": "",
+        "visible_to": "",
+        "custom_fields": "{{node.109.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "update_deal",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "71",
+      "incoming_nodes": [
+        "61"
+      ],
+      "outgoing_nodes": [
+        "72"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -144,
+        "y": 512
+      },
+      "name": "Copy - Copy - Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "72",
+      "incoming_nodes": [
+        "71"
+      ],
+      "outgoing_nodes": [
+        "90"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -144,
+        "y": 704
+      },
+      "name": "Copy - Copy - Find a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.71.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/persons/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"email\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "email",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "73",
+      "incoming_nodes": [
+        "103"
+      ],
+      "outgoing_nodes": [
+        "114",
+        "116"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -144,
+        "y": 1120
+      },
+      "name": "Copy - Person exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.90.body.result.person_id}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "116"
+      ],
+      "rule_failed_nodes": [
+        "114"
+      ]
+    },
+    {
+      "id": "74",
+      "incoming_nodes": [
+        "116"
+      ],
+      "outgoing_nodes": [
+        "88"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -272,
+        "y": 1296
+      },
+      "name": "Copy - Update Person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.90.body.result.person_id}}",
+        "name": "{{node.116.body.contact_name}}",
+        "email": "[{\"value\": \" {{event.body.prospect.email}} \", \"primary\": \"true\", \"label\": \"main\"}]",
+        "phone": "",
+        "owner_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.103.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "update_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "75",
+      "incoming_nodes": [
+        "60"
+      ],
+      "outgoing_nodes": [
+        "76"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -752,
+        "y": 512
+      },
+      "name": "Copy - Copy - Copy - Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "76",
+      "incoming_nodes": [
+        "75"
+      ],
+      "outgoing_nodes": [
+        "100"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -752,
+        "y": 784
+      },
+      "name": "Copy - Copy - Copy - Find a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.75.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/persons/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"email\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "email",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "77",
+      "incoming_nodes": [
+        "101"
+      ],
+      "outgoing_nodes": [
+        "115",
+        "117"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -752,
+        "y": 1056
+      },
+      "name": "Copy - Copy - Person exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.76.body.data.items.0}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "117"
+      ],
+      "rule_failed_nodes": [
+        "115"
+      ]
+    },
+    {
+      "id": "78",
+      "incoming_nodes": [
+        "117"
+      ],
+      "outgoing_nodes": [
+        "105"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -880,
+        "y": 1296
+      },
+      "name": "Copy - Copy - Update Person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.76.body.data.items.0.item.id}}",
+        "name": "{{node.117.body.contact_name}}",
+        "email": "[{\"value\": \" {{event.body.prospect.email}} \", \"primary\": \"true\", \"label\": \"main\"}]",
+        "phone": "",
+        "owner_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.101.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "update_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "79",
+      "incoming_nodes": [
+        "105"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -880,
+        "y": 1520
+      },
+      "name": "Copy - Create Deal",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "title": "{{event.body.prospect.email}}",
+        "value": "",
+        "currency": "",
+        "user_id": "",
+        "person_id": "{{node.78.body.id}}",
+        "org_id": "",
+        "pipeline_id": "{{workflow.fields.Select Pipeline (Applicable for Deals)}}",
+        "stage_id": "{{workflow.fields.Select Pipeline Stage (Applicable for Deals)}}",
+        "status": "",
+        "expected_close_date": "",
+        "probability": "",
+        "lost_reason": "",
+        "visible_to": "",
+        "add_time": "",
+        "custom_fields": "{{node.105.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "create_deal",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "80",
+      "incoming_nodes": [
+        "3"
+      ],
+      "outgoing_nodes": [
+        "81"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -1376,
+        "y": 512
+      },
+      "name": "Copy - Copy - Copy - Copy - Get base url",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://api.pipedrive.com",
+        "url_path": "/v1/users/me",
+        "body": "",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "81",
+      "incoming_nodes": [
+        "80"
+      ],
+      "outgoing_nodes": [
+        "98"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -1376,
+        "y": 784
+      },
+      "name": "Copy - Copy - Copy - Copy - Find a person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "GET",
+        "base_url": "https://{{node.80.body.data.company_domain}}.pipedrive.com",
+        "url_path": "/v1/persons/search",
+        "body": "",
+        "query_string": "{\"term\": \"{{event.body.prospect.email}}\",\"fields\":[\"email\"],\"exact_match\": true}",
+        "headers": "",
+        "pagination": [],
+        "query_params": {
+          "term": "{{event.body.prospect.email}}",
+          "fields": "email",
+          "exact_match": "true"
+        }
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "82",
+      "incoming_nodes": [
+        "99"
+      ],
+      "outgoing_nodes": [
+        "113",
+        "118"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -1376,
+        "y": 1040
+      },
+      "name": "Copy - Copy - Copy - Person exist?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.81.body.data.items.0}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "118"
+      ],
+      "rule_failed_nodes": [
+        "113"
+      ]
+    },
+    {
+      "id": "83",
+      "incoming_nodes": [
+        "118"
+      ],
+      "outgoing_nodes": [
+        "84"
+      ],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -1504,
+        "y": 1296
+      },
+      "name": "Copy - Copy - Copy - Update Person",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "id": "{{node.81.body.data.items.0.item.id}}",
+        "name": "{{node.118.body.contact_name}}",
+        "email": "[{\"value\": \" {{event.body.prospect.email}} \", \"primary\": \"true\", \"label\": \"main\"}]",
+        "phone": "",
+        "owner_id": "",
+        "visible_to": "",
+        "marketing_status": "",
+        "add_time": "",
+        "custom_fields": "{{node.99.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "update_contact",
+      "hidden": false,
+      "optional_fields": [
+        "custom_fields"
+      ]
+    },
+    {
+      "id": "84",
+      "incoming_nodes": [
+        "83"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -1504,
+        "y": 1520
+      },
+      "name": "Copy - Create a lead",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "organization_id": "",
+        "expected_close_date": "",
+        "value": "",
+        "title": "{{event.body.prospect.email}}",
+        "person_id": "{{node.83.body.data.id}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_lead",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "85",
+      "incoming_nodes": [
+        "21"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 976,
+        "y": 1456
+      },
+      "name": "pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "POST",
+        "base_url": "",
+        "url_path": "/v1/activities",
+        "body": "{  \"person_id\": \"{{node.89.body.result.person_id}}\",\"type\":\"email\",\"subject\":\"Email Open Recorded in Saleshandy\",\"note\":\"<p><b>Sequence Name:</b> {{event.body.sequence.sequenceName}} <br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps<br/><b>Step:</b> {{event.body.sequence.stepNumber}} <br/><b>Sender Email:</b> {{event.body.sequence.senderEmail}} <br/><b>Prospect Email:</b> {{event.body.prospect.email}} <br/><b>Prospect Name:</b> {{event.body.prospect.firstName}} {{event.body.prospect.lastName}} <br/><b>User:</b> {{event.body.user.email}} </p>\",\"done\": 1}",
+        "query_string": "",
+        "headers": "",
+        "pagination": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "87",
+      "incoming_nodes": [
+        "33"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": 112,
+        "y": 1504
+      },
+      "name": "Copy - pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "POST",
+        "base_url": "",
+        "url_path": "/v1/activities",
+        "body": "{  \"person_id\": \"{{node.33.body.data.id}}\",\"type\":\"email\",\"subject\":\"Email Open Recorded in Saleshandy\",\"note\":\"<p><b>Sequence Name:</b> {{event.body.sequence.sequenceName}} <br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps<br/><b>Step:</b> {{event.body.sequence.stepNumber}} <br/><b>Sender Email:</b> {{event.body.sequence.senderEmail}} <br/><b>Prospect Email:</b> {{event.body.prospect.email}} <br/><b>Prospect Name:</b> {{event.body.prospect.firstName}} {{event.body.prospect.lastName}} <br/><b>User:</b> {{event.body.user.email}} </p>\",\"done\": 1}",
+        "query_string": "",
+        "headers": "",
+        "pagination": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "88",
+      "incoming_nodes": [
+        "74"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "pipedrive",
+      "position": {
+        "x": -272,
+        "y": 1520
+      },
+      "name": "Copy - Copy - pipedrive",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "POST",
+        "base_url": "",
+        "url_path": "/v1/activities",
+        "body": "{  \"person_id\": \"{{node.90.body.result.person_id}}\",\"type\":\"email\",\"subject\":\"Email Open Recorded in Saleshandy\",\"note\":\"<p><b>Sequence Name:</b> {{event.body.sequence.sequenceName}} <br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps<br/><b>Step:</b> {{event.body.sequence.stepNumber}} <br/><b>Sender Email:</b> {{event.body.sequence.senderEmail}} <br/><b>Prospect Email:</b> {{event.body.prospect.email}} <br/><b>Prospect Name:</b> {{event.body.prospect.firstName}} {{event.body.prospect.lastName}} <br/><b>User:</b> {{event.body.user.email}} </p>\",\"done\": 1}",
+        "query_string": "",
+        "headers": "",
+        "pagination": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": null
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "89",
+      "incoming_nodes": [
+        "57"
+      ],
+      "outgoing_nodes": [
+        "59"
+      ],
+      "data": null,
+      "type": "transform",
+      "position": {
+        "x": 992,
+        "y": 864
+      },
+      "name": "transform",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "input": "{\"array\": \"{{node.57.body.data.items}}\"}",
+        "query": "{\"person_id\" : (array.item[emails[$contains(\"{{event.body.prospect.email}}\")]].id)[0]}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "query": "{\"person_id\" : array.item[emails[$contains(\"{{event.body.prospect.email}}\")]].id}"
+    },
+    {
+      "id": "90",
+      "incoming_nodes": [
+        "72"
+      ],
+      "outgoing_nodes": [
+        "102"
+      ],
+      "data": null,
+      "type": "transform",
+      "position": {
+        "x": -144,
+        "y": 912
+      },
+      "name": "Copy - transform",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "input": "{\"array\": \"{{node.72.body.data.items}}\"}",
+        "query": "{\"person_id\" : (array.item[emails[$contains(\"{{event.body.prospect.email}}\")]].id)[0]}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "query": "{\"person_id\" : array.item[emails[$contains(\"{{event.body.prospect.email}}\")]].id}"
+    },
+    {
+      "id": "91",
+      "incoming_nodes": [
+        "45"
+      ],
+      "outgoing_nodes": [
+        "47"
+      ],
+      "data": {},
+      "type": "codeexecutornode",
+      "position": {
+        "x": 688,
+        "y": 864
+      },
+      "name": "Custom Code",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* JS/Javascript\n* Write your Javascript code inside this function and return \n* an object which will be the response of this node. \n*/ \nfunction yourFunction(params) {\n    for(const deal of params.allDeals){\n        if(deal.item.title===params.requiredDeal){\n            return {\"result\": {dealID: deal.item.id, personID: deal.item.person.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "#id": 0.4752199048671639,
+            "key": "allDeals",
+            "value": "{{node.45.body.data.items}}"
+          },
+          {
+            "#id": 0.764766338221617,
+            "key": "requiredDeal",
+            "value": "{{event.body.prospect.email}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "92",
+      "incoming_nodes": [
+        "37"
+      ],
+      "outgoing_nodes": [
+        "39"
+      ],
+      "data": {},
+      "type": "codeexecutornode",
+      "position": {
+        "x": 1296,
+        "y": 864
+      },
+      "name": "Copy - Custom Code",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* JS/Javascript\n* Write your Javascript code inside this function and return \n* an object which will be the response of this node. \n*/ \nfunction yourFunction(params) {\n    for(const deal of params.allDeals){\n        if(deal.item.title===params.requiredDeal){\n            return {\"result\": {\n                dealID: deal.item.id,\n                personID: deal.item.person ? deal.item.person.id : null,\n                exists: true\n            }}\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "#id": 0.4752199048671639,
+            "key": "allDeals",
+            "value": "{{node.37.body.data.items}}"
+          },
+          {
+            "#id": 0.764766338221617,
+            "key": "requiredDeal",
+            "value": "{{event.body.prospect.email}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "93",
+      "incoming_nodes": [
+        "53"
+      ],
+      "outgoing_nodes": [
+        "55"
+      ],
+      "data": {},
+      "type": "codeexecutornode",
+      "position": {
+        "x": 1584,
+        "y": 864
+      },
+      "name": "Custom Code",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* JS/Javascript\n* Write your Javascript code inside this function and return \n* an object which will be the response of this node. \n*/ \nfunction yourFunction(params) {\n    for(const person of params.allPerson){\n        for (const email of person.item.emails) {\n            if(email===params.requiredPersonEmail){\n                return {\"result\": {personID: person.item.id, exists: true}}\n            }\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "#id": 0.005295493561425113,
+            "key": "allPerson",
+            "value": "{{node.53.body.data.items}}"
+          },
+          {
+            "#id": 0.9573783480302223,
+            "key": "requiredPersonEmail",
+            "value": "{{event.body.prospect.email}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "94",
+      "incoming_nodes": [
+        "41"
+      ],
+      "outgoing_nodes": [
+        "43"
+      ],
+      "data": {},
+      "type": "codeexecutornode",
+      "position": {
+        "x": 1872,
+        "y": 864
+      },
+      "name": "Custom Code",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* JS/Javascript\n* Write your Javascript code inside this function and return \n* an object which will be the response of this node. \n*/ \nfunction yourFunction(params) {\n    for(const organisation of params.allOrganisation){\n        if(organisation.item.name===params.requiredOrganisation){\n            return {\"result\": {organisationID: organisation.item.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "#id": 0.5496100789702163,
+            "key": "allOrganisation",
+            "value": "{{node.41.body.data.items}}"
+          },
+          {
+            "#id": 0.5416301912154322,
+            "key": "requiredOrganisation",
+            "value": "{{event.body.prospect.company}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "95",
+      "incoming_nodes": [
+        "49"
+      ],
+      "outgoing_nodes": [
+        "51"
+      ],
+      "data": {},
+      "type": "codeexecutornode",
+      "position": {
+        "x": 2448,
+        "y": 864
+      },
+      "name": "Copy - Custom Code",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "code_string": "/**\n* JS/Javascript\n* Write your Javascript code inside this function and return \n* an object which will be the response of this node. \n*/ \nfunction yourFunction(params) {\n    for(const organisation of params.allOrganisation){\n        if(organisation.item.name===params.requiredOrganisation){\n            return {\"result\": {organisationID: organisation.item.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "#id": 0.5496100789702163,
+            "key": "allOrganisation",
+            "value": "{{node.41.body.data.items}}"
+          },
+          {
+            "#id": 0.5416301912154322,
+            "key": "requiredOrganisation",
+            "value": "{{event.body.prospect.company}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "96",
+      "incoming_nodes": [
+        "67"
+      ],
+      "outgoing_nodes": [
+        "97"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": 2149,
+        "y": 327
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "97",
+      "incoming_nodes": [
+        "96"
+      ],
+      "outgoing_nodes": [
+        "25"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": 2155,
+        "y": 412
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.96.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Organisation Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "98",
+      "incoming_nodes": [
+        "81"
+      ],
+      "outgoing_nodes": [
+        "99"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": -1376,
+        "y": 871
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "99",
+      "incoming_nodes": [
+        "98"
+      ],
+      "outgoing_nodes": [
+        "82"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": -1376,
+        "y": 956
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.98.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "100",
+      "incoming_nodes": [
+        "76"
+      ],
+      "outgoing_nodes": [
+        "101"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": -752,
+        "y": 876
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "101",
+      "incoming_nodes": [
+        "100"
+      ],
+      "outgoing_nodes": [
+        "77"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": -752,
+        "y": 966
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.100.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "102",
+      "incoming_nodes": [
+        "90"
+      ],
+      "outgoing_nodes": [
+        "103"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": -144,
+        "y": 983
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "103",
+      "incoming_nodes": [
+        "102"
+      ],
+      "outgoing_nodes": [
+        "73"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": -144,
+        "y": 1051
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.102.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "104",
+      "incoming_nodes": [
+        "69"
+      ],
+      "outgoing_nodes": [
+        "17"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": -608,
+        "y": 1446
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.100.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Deal Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "105",
+      "incoming_nodes": [
+        "78"
+      ],
+      "outgoing_nodes": [
+        "79"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": -880,
+        "y": 1446
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.100.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Deal Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "106",
+      "incoming_nodes": [
+        "59"
+      ],
+      "outgoing_nodes": [
+        "107"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": 987,
+        "y": 1105
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "107",
+      "incoming_nodes": [
+        "106"
+      ],
+      "outgoing_nodes": [
+        "112"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": 981,
+        "y": 1169
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.106.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "108",
+      "incoming_nodes": [
+        "47"
+      ],
+      "outgoing_nodes": [
+        "109"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": 688,
+        "y": 1095
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "109",
+      "incoming_nodes": [
+        "108"
+      ],
+      "outgoing_nodes": [
+        "70"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": 688,
+        "y": 1163
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.108.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Deal Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "110",
+      "incoming_nodes": [
+        "51"
+      ],
+      "outgoing_nodes": [
+        "111"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": 2448,
+        "y": 1105
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "111",
+      "incoming_nodes": [
+        "110"
+      ],
+      "outgoing_nodes": [
+        "26"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": 2448,
+        "y": 1169
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.110.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Organisation Fields}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "112",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "107"
+      ],
+      "outgoing_nodes": [
+        "21"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "113",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "82"
+      ],
+      "outgoing_nodes": [
+        "30"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "114",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "73"
+      ],
+      "outgoing_nodes": [
+        "33"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "115",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "77"
+      ],
+      "outgoing_nodes": [
+        "69"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "116",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "73"
+      ],
+      "outgoing_nodes": [
+        "74"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "117",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "77"
+      ],
+      "outgoing_nodes": [
+        "78"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "118",
+      "type": "codeexecutornode",
+      "name": "Custom Code",
+      "action": "no_action",
+      "incoming_nodes": [
+        "82"
+      ],
+      "outgoing_nodes": [
+        "83"
+      ],
+      "input_data": {
+        "code_string": "function yourFunction(params){\n  function clean(v){\n    if (v === null || v === undefined) return \"\";\n    v = String(v).trim();\n    if (v.toLowerCase() === \"null\" || v.toLowerCase() === \"undefined\") return \"\";\n    return v;\n  }\n  var f = clean(params.firstname); if (f === \"\") f = clean(params.firstName);\n  var l = clean(params.lastname);  if (l === \"\") l = clean(params.lastName);\n  var name = (f + \" \" + l).trim();\n  return { contact_name: name.length > 0 ? name : \"(No Name)\" };\n}\n",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "firstname",
+            "value": "{{event.body.prospect.firstName}}"
+          },
+          {
+            "key": "lastname",
+            "value": "{{event.body.prospect.lastName}}"
+          }
+        ]
+      }
+    }
+  ],
+  "associated_application": "681368981acc0cbcd16294cb",
+  "autoEnable": false,
+  "hide_in_config": false,
+  "__v": 0,
+  "workflow_environment": [
+    "production",
+    "test"
+  ],
+  "udf_filter": [
+    {}
+  ],
+  "environment": "test",
+  "workflow_id": "64929b4e4c4f06c4bf16f977",
+  "slug": "pipedrive",
+  "enable_schema_validation": false,
+  "expose_as_node": false,
+  "is_agentic_flow": false,
+  "is_v2": true,
+  "settings": {
+    "omit_completed_logs": false,
+    "omit_all_logs": false,
+    "execute_via_orchestration_v1": false,
+    "allow_subflow_execution_in_logs": false
+  },
+  "workflow_alias": "",
+  "published_by": "69aeb3ab8d5c4156964b64ec",
+  "tag_ids": [],
+  "application_id": "681368981acc0cbcd16294cb",
+  "export_id": "681368981acc0cbcd16295a6",
+  "config_fields": [
+    {
+      "name": "Select Pipedrive Action1",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708eeda65cda232a661ab5",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action2",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708ef6a65cda232a661ac4",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action3",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708ef7a65cda232a661ad6",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action4",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708ef8a65cda232a661aeb",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action5",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708ef9a65cda232a661b03",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action6",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708efaa65cda232a661b1e",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action7",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708efba65cda232a661b3c",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action8",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708efca65cda232a661b5d",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action9",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708f02a65cda232a661b81",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action10",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708f04a65cda232a661ba8",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipedrive Action11",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708f05a65cda232a661bd2",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipeline (Applicable for Deals)",
+      "type": "dynamic:pipedrive:2",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708fa1a65cda232a661e9a",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "Select Pipeline Stage (Applicable for Deals)",
+      "type": "dynamic:pipedrive:1",
+      "dynamic_object_name": "",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64708f9fa65cda232a661e6a",
+      "required": false,
+      "allow_multiple_select": false,
+      "parent": "64708fa1a65cda232a661e9a",
+      "allow_dynamic_fields": false,
+      "hidden": false,
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": false
+    },
+    {
+      "name": "event",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170345",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "emailOpenedAt",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170346",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect",
+      "type": "object",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170347",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.2342",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170348",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.3456",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170349",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.4567",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17034a",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.5678",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17034b",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.6789",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17034c",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.firstName",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17034d",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.lastName",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17034e",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.email",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17034f",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.phone",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170350",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.jobTitle",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170351",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.industry",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170352",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.company",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170353",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.companyDomain",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170354",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.linkedIn",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170355",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.twitter",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170356",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.facebook",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170357",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.website",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170358",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.city",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170359",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.state",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17035a",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.country",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17035b",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.prospectCreatedAt",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17035c",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.latestStatus",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17035d",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.tag",
+      "type": "array",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17035e",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence",
+      "type": "object",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17035f",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.sequenceName",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170360",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.stepID",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170361",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.stepNumber",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170362",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.senderEmail",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170363",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.importedAt",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170364",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user",
+      "type": "object",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170365",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user.firstName",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170366",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user.lastName",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170367",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user.email",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170368",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user.jobRole",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf170369",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user.userRole",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "64929b7b4c4f06c4bf17036a",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "openCount",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993c8e",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.6753",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993c90",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.83747",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993c91",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.94387",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993c92",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.187635",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993c93",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "prospect.298374",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993c94",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.containsAttachment",
+      "type": "boolean",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993ca8",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.containsLink",
+      "type": "boolean",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993ca9",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.dealValue",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993caa",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.emailBody",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cab",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.emailSubject",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cac",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.id",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cad",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.isSentAsNewThread",
+      "type": "boolean",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cb3",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.latestOutcome",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cb4",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "sequence.variant",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cb5",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    },
+    {
+      "name": "user.shAccountId",
+      "type": "text",
+      "labels": [],
+      "possible_options": [],
+      "_id": "656e37cec002b2b9b4993cbb",
+      "required": false,
+      "allow_dynamic_fields": false,
+      "associated_trigger_application": "custom",
+      "associated_trigger_id": "64647480c7f3ab6e2bf5b11f",
+      "associated_application_id": "681368981acc0cbcd16294c8",
+      "workflow_id": "681368981acc0cbcd16295a6",
+      "auto_created": true
+    }
+  ]
+}

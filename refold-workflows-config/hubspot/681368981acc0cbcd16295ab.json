@@ -1,0 +1,5512 @@
+{
+  "_id": "681368981acc0cbcd16295ab",
+  "name": "Link is Clicked in Saleshandy",
+  "description": "",
+  "icon": "",
+  "edges": [
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "2",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5007e9e3-8023-2c80-fbb5-35657632fcb1"
+    },
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "13",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a910b3df-ae13-4dfb-2768-24d6e00167aa"
+    },
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "14",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "8a76aee4-8cda-f8dc-567d-b8576298ee57"
+    },
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "15",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "02f0c251-17c3-d886-5c23-80b36bbf1c23"
+    },
+    {
+      "source": "15",
+      "target": "9",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "49954cf3-907d-3c86-1ab6-efe30088fc8f"
+    },
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "16",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "8e74b810-faf8-37f9-8f87-828f4eec08b6"
+    },
+    {
+      "source": "16",
+      "target": "17",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "4e47d5a7-c3df-8fbe-d20c-97d89ecbe3dc"
+    },
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "21",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "edca1e70-c184-3b4e-bcf9-8c943963886b"
+    },
+    {
+      "source": "21",
+      "target": "22",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "328b2f08-ed52-ea94-e326-4f31eedca2f9"
+    },
+    {
+      "source": "13",
+      "target": "41",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "47f063d2-8e64-41e4-eef2-af0ea3a0a151"
+    },
+    {
+      "source": "43",
+      "target": "5",
+      "sourceHandle": "false",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "26cfc46d-8506-719b-690d-7f7b0a72a562"
+    },
+    {
+      "source": "43",
+      "target": "44",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "ef5cb441-1253-9ee7-267d-636084ce616c"
+    },
+    {
+      "source": "17",
+      "target": "48",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "6ff0bb86-1330-8580-077d-698433abd744"
+    },
+    {
+      "source": "48",
+      "target": "19",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "ab794d9b-0d6c-087e-8cbd-76b08ab83095"
+    },
+    {
+      "source": "41",
+      "target": "49",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "6ca86086-21c8-460e-4678-63c27a68551f"
+    },
+    {
+      "source": "2",
+      "target": "52",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "3ef8b5b2-8d0d-e98e-635d-7a285877ed92"
+    },
+    {
+      "source": "3",
+      "target": "53",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "131eae5a-ad10-5f76-1879-00ef4da5579f"
+    },
+    {
+      "source": "3",
+      "target": "54",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "11f6f34c-4802-44cf-5eb4-c86eefe45baa"
+    },
+    {
+      "source": "54",
+      "target": "56",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "4b104dc1-218d-4cb1-3823-740708f1b016"
+    },
+    {
+      "source": "53",
+      "target": "55",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c980fd8b-e463-983b-b181-6660868f0403"
+    },
+    {
+      "source": "57",
+      "target": "59",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "85b760cb-6847-654d-c16e-fedf7519a007"
+    },
+    {
+      "source": "58",
+      "target": "60",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f2f3354c-105f-7b48-75b3-9b0c3a20f7f9"
+    },
+    {
+      "source": "61",
+      "target": "63",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f2201224-87b1-dba8-1293-1922c44bc209"
+    },
+    {
+      "source": "62",
+      "target": "64",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "636a962e-5543-314d-6c36-502f2e6d6b10"
+    },
+    {
+      "source": "7",
+      "target": "65",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "29abb17c-6c36-388d-050e-3d9b2672faf9"
+    },
+    {
+      "source": "7",
+      "target": "66",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f8293484-6fc5-188e-b3b5-1690311c65b7"
+    },
+    {
+      "source": "65",
+      "target": "67",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d0fa09a1-065e-d274-15dc-0bb900e0ef97"
+    },
+    {
+      "source": "66",
+      "target": "68",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "0dfcd5ea-1936-d50e-8b5b-783f919fd26f"
+    },
+    {
+      "source": "10",
+      "target": "69",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "24927d7c-d536-c8a4-6bbb-f15662a3d7bc"
+    },
+    {
+      "source": "10",
+      "target": "70",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a548f86e-247d-4895-8c55-0f1d4f8e1c7f"
+    },
+    {
+      "source": "69",
+      "target": "71",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c8397e5a-2e8f-525c-789d-163548d98180"
+    },
+    {
+      "source": "70",
+      "target": "72",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "aa01d395-3d2a-c68f-b9ef-704fc159d9cb"
+    },
+    {
+      "source": "45",
+      "target": "73",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d3b363a6-8863-232f-421c-187a2abbd8c2"
+    },
+    {
+      "source": "45",
+      "target": "74",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "928dc66a-06f5-8736-3774-c0bd26a1507c"
+    },
+    {
+      "source": "73",
+      "target": "75",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c5e062c7-95ac-7f47-bd5c-abc3808ecb60"
+    },
+    {
+      "source": "74",
+      "target": "76",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2c8ff430-cd38-5bc6-7a04-fddde4a2f8c3"
+    },
+    {
+      "source": "24",
+      "target": "77",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "da12901e-3326-5946-4f8e-8ebfd5295d0e"
+    },
+    {
+      "source": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "target": "78",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "7127f600-4555-ec81-24b8-a3474e6ae6a1"
+    },
+    {
+      "source": "78",
+      "target": "79",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f633729b-dd63-bce9-36ff-384231d9d8c0"
+    },
+    {
+      "source": "79",
+      "target": "80",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "afe3b801-3fda-b27e-fe77-6af8e351de80"
+    },
+    {
+      "source": "80",
+      "target": "81",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c6fac6a7-3b2a-6fb8-9ad1-18a79a5a0649"
+    },
+    {
+      "source": "81",
+      "target": "82",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "fafb5a4c-e841-4cc8-224e-69152096aa74"
+    },
+    {
+      "source": "25",
+      "target": "83",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "1be8553e-4362-7d7a-9c1a-070015c4e820"
+    },
+    {
+      "source": "25",
+      "target": "84",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "57bd7d05-dd95-c3ba-54bf-21327fa054ed"
+    },
+    {
+      "source": "83",
+      "target": "85",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "449d5420-0a3d-492c-d9c4-1ab924cd75a0"
+    },
+    {
+      "source": "84",
+      "target": "86",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "dd425d0b-aedb-bd46-83f0-41a9d2edba4c"
+    },
+    {
+      "source": "82",
+      "target": "87",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d23ed630-696e-ace8-3c13-ae1134b01871"
+    },
+    {
+      "source": "88",
+      "target": "89",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "670b0783-56fd-30cd-8028-7f0e37a6b44f"
+    },
+    {
+      "source": "89",
+      "target": "90",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "30b41d77-4b6b-7825-13a5-484430dcff30"
+    },
+    {
+      "source": "44",
+      "target": "57",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "040410a5-eea0-5aaa-4016-72d9b91d8185"
+    },
+    {
+      "source": "44",
+      "target": "58",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "625deafe-5d53-9052-6dd6-4e29e021f8de"
+    },
+    {
+      "source": "5",
+      "target": "61",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f087ffc0-5f14-f8bf-6421-6cfd063fcbe4"
+    },
+    {
+      "source": "5",
+      "target": "62",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "558cf303-bdaa-c1b1-3665-b56132d801e8"
+    },
+    {
+      "source": "9",
+      "target": "91",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "3f6b25a4-b351-3ef8-5ef8-7059b85b82be"
+    },
+    {
+      "source": "91",
+      "target": "12",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "69957cb7-3193-f30d-9666-836ff587bf15"
+    },
+    {
+      "source": "22",
+      "target": "92",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "098fbba8-2df0-33f3-adcf-06fbce6d823a"
+    },
+    {
+      "source": "92",
+      "target": "24",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "5f4109da-2238-2ae3-c180-4354d85f66a2"
+    },
+    {
+      "source": "52",
+      "target": "93",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "4fa26a51-3ad4-43d1-9a44-45d7361c47bb"
+    },
+    {
+      "source": "93",
+      "target": "94",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "7ff72d2a-0dc3-493c-9c0c-6c5dbf2f5423"
+    },
+    {
+      "source": "49",
+      "target": "95",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d09c4146-9cf5-4b71-a74f-3ddb28850a46"
+    },
+    {
+      "source": "95",
+      "target": "96",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d17f2941-084d-41ea-a296-77ed68070e03"
+    },
+    {
+      "source": "96",
+      "target": "43",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "02c04512-b865-402e-a562-029709b167dd"
+    },
+    {
+      "source": "19",
+      "target": "97",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "0dfc6d13-fac3-4ea8-91a2-6391d4a77e03"
+    },
+    {
+      "source": "97",
+      "target": "98",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f2b1235e-2a56-4fe7-b7fb-7b629e9f603d"
+    },
+    {
+      "source": "81",
+      "target": "99",
+      "sourceHandle": "false",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "c05dcd32-d381-4a36-9f67-49cfba38bacb"
+    },
+    {
+      "source": "99",
+      "target": "100",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "517f2b50-f872-473a-a561-7811a786c224"
+    },
+    {
+      "source": "100",
+      "target": "88",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "b3cfd920-95d3-4194-8c36-6c5158628497"
+    },
+    {
+      "source": "77",
+      "target": "101",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "cacfe326-350a-4413-8765-4ef4656e64a1"
+    },
+    {
+      "source": "101",
+      "target": "102",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "3a730519-0db5-4952-83cb-ce2622139dfb"
+    },
+    {
+      "source": "102",
+      "target": "25",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "69a08164-36bc-4f9c-b983-8b95b76d7ef6"
+    },
+    {
+      "source": "94",
+      "target": "103",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "ee50baa1-d659-4391-8db3-f767f00c5431"
+    },
+    {
+      "source": "103",
+      "target": "104",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "8efdf16d-a00f-4d04-9e13-972ed8ef3442"
+    },
+    {
+      "source": "104",
+      "target": "105",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "1dc58eb8-45bf-4e50-a951-d0b9bcaa7717"
+    },
+    {
+      "source": "105",
+      "target": "3",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "93fa8219-9078-4b41-bbb7-0552cd498258"
+    },
+    {
+      "source": "105",
+      "target": "106",
+      "sourceHandle": "false",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "67bb143b-4140-42a2-b188-74d240fe9497"
+    },
+    {
+      "source": "106",
+      "target": "107",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "1744889a-c30f-4134-aadd-14482d4f632d"
+    },
+    {
+      "source": "14",
+      "target": "108",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "aae615a3-a89a-4c64-a516-fd889ca63f10"
+    },
+    {
+      "source": "108",
+      "target": "109",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "a80da9c4-913c-423f-acd4-ff627b54c32a"
+    },
+    {
+      "source": "109",
+      "target": "110",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d5204044-51cd-4c0f-bde3-bee9a135fb4c"
+    },
+    {
+      "source": "110",
+      "target": "111",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "f90efa48-a5f7-4f5f-ace7-b5862e24e02e"
+    },
+    {
+      "source": "111",
+      "target": "112",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "29dd3248-62ac-4cb3-9c05-6c588a5b86d9"
+    },
+    {
+      "source": "112",
+      "target": "7",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2f21e5db-ca24-424e-82ce-c8589e4a33f5"
+    },
+    {
+      "source": "112",
+      "target": "113",
+      "sourceHandle": "false",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "11819d45-ea8f-42f2-bd71-60f98a33c734"
+    },
+    {
+      "source": "113",
+      "target": "114",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "3320fd17-4d75-46c0-a56a-d9a676b19e06"
+    },
+    {
+      "source": "12",
+      "target": "115",
+      "sourceHandle": "true",
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "0a32f9fb-5366-4626-91e8-e4f906929a82"
+    },
+    {
+      "source": "115",
+      "target": "116",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "d245e917-62dd-4190-8a15-596420a1e8cb"
+    },
+    {
+      "source": "116",
+      "target": "10",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "256b9afc-b208-4781-bf1d-92d0a03d33e5"
+    },
+    {
+      "source": "98",
+      "target": "45",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "type": "smoothstep",
+      "id": "2971ed96-320e-42e2-aeba-d7f61d160d6a"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ee33b6fe-e74e-44ef-8518-9ed93b6122ec",
+      "incoming_nodes": [],
+      "outgoing_nodes": [
+        "2",
+        "13",
+        "14",
+        "15",
+        "16",
+        "21",
+        "78"
+      ],
+      "type": "start",
+      "position": {
+        "x": 1520,
+        "y": 64
+      },
+      "name": "Start",
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "triggers": [
+        {
+          "associated_trigger_id": "646473d5c7f3ab6e2bf5b10f",
+          "associated_application_id": "681368981acc0cbcd16294c8",
+          "application": "custom",
+          "_id": "6a2badd5cbb5594e6a7cafd2"
+        }
+      ],
+      "trigger_cron": null,
+      "event_to_dynamic_var_map": []
+    },
+    {
+      "id": "2",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "52"
+      ],
+      "type": "rule",
+      "position": {
+        "x": -192,
+        "y": 400
+      },
+      "name": "create deal",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-deal",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "52"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "3",
+      "incoming_nodes": [
+        "105"
+      ],
+      "outgoing_nodes": [
+        "53",
+        "54"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": -208,
+        "y": 800
+      },
+      "name": "hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "method": "POST",
+        "url_path": "/crm/v3/objects/deals",
+        "body": "{\n  \"properties\": {{node.103.body.result}},\n\"associations\": [\n    {\n     \"to\": {\n        \"id\": {{node.104.body.results.0.id}}\n      },\n      \"types\": [\n        {\n          \"associationCategory\": \"HUBSPOT_DEFINED\",\n          \"associationTypeId\": 3\n        } ]\n    }\n]}\n"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "5",
+      "incoming_nodes": [
+        "43"
+      ],
+      "outgoing_nodes": [
+        "61",
+        "62"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 400,
+        "y": 1328
+      },
+      "name": "hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "firstname": "{{event.body.prospect.firstName}}",
+        "lastname": "{{event.body.prospect.lastName}}",
+        "email": "{{event.body.prospect.email}}",
+        "phone": "",
+        "hs_whatsapp_phone_number": "",
+        "company": "",
+        "website": "",
+        "date_of_birth": "",
+        "school": "",
+        "degree": "",
+        "city": "",
+        "zip": "",
+        "country": "",
+        "industry": "",
+        "jobtitle": "",
+        "gender": "",
+        "lifecyclestage": "{{workflow.fields.Lead Lifecycle}}",
+        "hs_lead_status": "{{workflow.fields.Lead Status}}",
+        "hubspot_owner_id": "",
+        "additional_fields": "{{node.96.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": [
+        "additional_fields"
+      ]
+    },
+    {
+      "id": "7",
+      "incoming_nodes": [
+        "112"
+      ],
+      "outgoing_nodes": [
+        "65",
+        "66"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 640,
+        "y": 656
+      },
+      "name": "hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "method": "POST",
+        "url_path": "/crm/v3/objects/companies",
+        "body": "{\n  \"properties\": {{node.110.body.result}},\n\"associations\": [\n    {\n     \"to\": {\n        \"id\": {{node.111.body.results.0.id}}\n      },\n      \"types\": [\n        {\n          \"associationCategory\": \"HUBSPOT_DEFINED\",\n          \"associationTypeId\": 280\n        } ]\n    }\n]}\n"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "9",
+      "incoming_nodes": [
+        "15"
+      ],
+      "outgoing_nodes": [
+        "91"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 992,
+        "y": 608
+      },
+      "name": "Search for company",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "method": "post",
+        "base_url": "https://api.hubapi.com",
+        "url_path": "/crm/v3/objects/companies/search",
+        "body": "{  \"filterGroups\": [    {      \"filters\": [        {          \"value\": \"{{event.body.prospect.company}}\",          \"propertyName\": \"name\",          \"operator\": \"EQ\"        }      ]    }  ],  \"sorts\": [    \"createdate\"  ],  \"properties\": [    \"name\"  ],  \"limit\": 100,  \"after\": 0}",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "10",
+      "incoming_nodes": [
+        "116"
+      ],
+      "outgoing_nodes": [
+        "69",
+        "70"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 960,
+        "y": 1248
+      },
+      "name": "Update Company",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "companyId": "{{node.91.body.result.organisationID}}",
+        "name": "{{event.body.prospect.company}}",
+        "domain": "{{event.body.prospect.companyDomain}}",
+        "industry": "",
+        "phone": "",
+        "city": "",
+        "state": "",
+        "additional_fields": "{{node.116.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "update_company",
+      "hidden": false,
+      "optional_fields": [
+        "additional_fields"
+      ]
+    },
+    {
+      "id": "12",
+      "incoming_nodes": [
+        "91"
+      ],
+      "outgoing_nodes": [
+        "115"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 960,
+        "y": 1056
+      },
+      "name": "If Company exist?",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.91.body.result.organisationID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "115"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "13",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "41"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 240,
+        "y": 400
+      },
+      "name": "create contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-contact",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "41"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "14",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "108"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 624,
+        "y": 400
+      },
+      "name": "create company",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-company",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "108"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "15",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "9"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 992,
+        "y": 400
+      },
+      "name": "update company",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "update-company",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "9"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "16",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "17"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1296,
+        "y": 400
+      },
+      "name": "update contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "update-contact",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "17"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "17",
+      "incoming_nodes": [
+        "16"
+      ],
+      "outgoing_nodes": [
+        "48"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 1280,
+        "y": 624
+      },
+      "name": "Copy - Search for contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "method": "post",
+        "base_url": "https://api.hubapi.com",
+        "url_path": "/crm/v3/objects/contacts/search",
+        "body": "{  \"filterGroups\": [    {      \"filters\": [        {          \"value\": \" {{event.body.prospect.email}} \" ,          \"propertyName\": \"email\",          \"operator\": \"EQ\"        }      ]    }  ],  \"sorts\": [    \"createdate\"  ],  \"properties\": [    \"email\",\"hs_object_id\"  ],  \"limit\": 100,  \"after\": 0}",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "19",
+      "incoming_nodes": [
+        "48"
+      ],
+      "outgoing_nodes": [
+        "97"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1280,
+        "y": 1056
+      },
+      "name": "Copy - If Contact exist?",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.48.body.result.contactID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "97"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "21",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "22"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1776,
+        "y": 432
+      },
+      "name": "update deal",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "update-deal",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "22"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "22",
+      "incoming_nodes": [
+        "21"
+      ],
+      "outgoing_nodes": [
+        "92"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 1776,
+        "y": 624
+      },
+      "name": "Search deal",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "method": "post",
+        "base_url": "https://api.hubapi.com",
+        "url_path": "/crm/v3/objects/deals/search",
+        "body": "{  \"filterGroups\": [    {      \"filters\": [        {          \"value\": \"{{event.body.prospect.firstName}} {{event.body.prospect.lastName}}\",          \"propertyName\": \"dealname\",          \"operator\": \"EQ\"        }      ]    }  ],  \"sorts\": [    \"createdate\"  ],  \"properties\": [    \"dealname\"  ],  \"limit\": 100,  \"after\": 0}",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "24",
+      "incoming_nodes": [
+        "92"
+      ],
+      "outgoing_nodes": [
+        "77"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1760,
+        "y": 1120
+      },
+      "name": "If deal exist?",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.92.body.result.dealID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "77"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "25",
+      "incoming_nodes": [
+        "102"
+      ],
+      "outgoing_nodes": [
+        "83",
+        "84"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 1888,
+        "y": 1520
+      },
+      "name": "Update Deal",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "dealId": "{{node.92.body.result.dealID}}",
+        "dealname": "{{event.body.prospect.firstName}} {{event.body.prospect.lastName}}",
+        "amount": "",
+        "closedate": "{{node.77.body.result.due_date}}",
+        "dealstage": "{{workflow.fields.Select Pipeline Stage (when to update)}}",
+        "hubspot_owner_id": "",
+        "pipeline": "{{workflow.fields.Select Pipeline (when to update)}}",
+        "additional_fields": "{{node.102.body}}",
+        "dealtype": "{{workflow.fields.Deal Type (while updating)}}",
+        "hs_priority": "{{workflow.fields.Deal Priority (while updating)}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "update_deal",
+      "hidden": false,
+      "optional_fields": [
+        "additional_fields"
+      ]
+    },
+    {
+      "id": "41",
+      "incoming_nodes": [
+        "13"
+      ],
+      "outgoing_nodes": [
+        "49"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 192,
+        "y": 640
+      },
+      "name": "Copy - Copy - Search for contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "method": "post",
+        "base_url": "https://api.hubapi.com",
+        "url_path": "/crm/v3/objects/contacts/search",
+        "body": "{  \"filterGroups\": [    {      \"filters\": [        {          \"value\": \" {{event.body.prospect.email}} \" ,          \"propertyName\": \"email\",          \"operator\": \"EQ\"        }      ]    }  ],  \"sorts\": [    \"createdate\"  ],  \"properties\": [    \"email\",\"hs_object_id\"  ],  \"limit\": 100,  \"after\": 0}",
+        "query_string": "",
+        "headers": "",
+        "pagination": []
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "43",
+      "incoming_nodes": [
+        "96"
+      ],
+      "outgoing_nodes": [
+        "5",
+        "44"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 192,
+        "y": 1088
+      },
+      "name": "Copy - Copy - If Contact exist?",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.49.body.result.contactID}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "44"
+      ],
+      "rule_failed_nodes": [
+        "5"
+      ]
+    },
+    {
+      "id": "44",
+      "incoming_nodes": [
+        "43"
+      ],
+      "outgoing_nodes": [
+        "57",
+        "58"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 64,
+        "y": 1328
+      },
+      "name": "Copy - Update Contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "contactId": "{{node.49.body.result.contactID}}",
+        "firstname": "{{event.body.prospect.firstName}}",
+        "lastname": "{{event.body.prospect.lastName}}",
+        "phone": "{{event.body.prospect.phone}}",
+        "hs_whatsapp_phone_number": "",
+        "email": "{{event.body.prospect.email}}",
+        "company": "",
+        "website": "",
+        "date_of_birth": "",
+        "school": "",
+        "degree": "",
+        "city": "{{event.body.prospect.city}}",
+        "zip": "",
+        "country": "{{event.body.prospect.country}}",
+        "industry": "",
+        "jobtitle": "{{event.body.prospect.jobTitle}}",
+        "gender": "",
+        "lifecyclestage": "{{workflow.fields.Lead Lifecycle}}",
+        "hs_lead_status": "{{workflow.fields.Lead Status}}",
+        "hubspot_owner_id": "",
+        "additional_fields": "{{node.96.body}}",
+        "state": "{{event.body.prospect.state}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "update_contact",
+      "hidden": false,
+      "optional_fields": [
+        "additional_fields"
+      ]
+    },
+    {
+      "id": "45",
+      "incoming_nodes": [
+        "98"
+      ],
+      "outgoing_nodes": [
+        "73",
+        "74"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 1328,
+        "y": 1424
+      },
+      "name": "Copy - Update Contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "contactId": "{{node.48.body.result.contactID}}",
+        "firstname": "{{event.body.prospect.firstName}}",
+        "lastname": "{{event.body.prospect.lastName}}",
+        "phone": "{{event.body.prospect.phone}}",
+        "hs_whatsapp_phone_number": "",
+        "email": "{{event.body.prospect.email}}",
+        "company": "",
+        "website": "",
+        "date_of_birth": "",
+        "school": "",
+        "degree": "",
+        "city": "{{event.body.prospect.city}}",
+        "zip": "",
+        "country": "{{event.body.prospect.country}}",
+        "industry": "",
+        "jobtitle": "{{event.body.prospect.jobTitle}}",
+        "gender": "",
+        "lifecyclestage": "{{workflow.fields.Update Lead Lifecycle}}",
+        "hs_lead_status": "{{workflow.fields.Update Lead Status}}",
+        "additional_fields": "{{node.98.body}}",
+        "state": "{{event.body.prospect.state}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "update_contact",
+      "hidden": false,
+      "optional_fields": [
+        "additional_fields"
+      ]
+    },
+    {
+      "id": "48",
+      "incoming_nodes": [
+        "17"
+      ],
+      "outgoing_nodes": [
+        "19"
+      ],
+      "type": "transform",
+      "position": {
+        "x": 1280,
+        "y": 832
+      },
+      "name": "Extract contact ID  - Update contact",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "input": "{\"allContact\": \"{{node.17.body.results}}\"}",
+        "query": "{\"contactID\": allContact[properties.email= \"{{event.body.prospect.email}}\"].id}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "49",
+      "incoming_nodes": [
+        "41"
+      ],
+      "outgoing_nodes": [
+        "95"
+      ],
+      "type": "transform",
+      "position": {
+        "x": 192,
+        "y": 880
+      },
+      "name": "transform",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "input": "{\"allContact\": \"{{node.41.body.results}}\"}",
+        "query": "{\"contactID\": allContact[properties.email=\"{{event.body.prospect.email}}\"].id}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "52",
+      "incoming_nodes": [
+        "2"
+      ],
+      "outgoing_nodes": [
+        "93"
+      ],
+      "type": "transform",
+      "position": {
+        "x": -208,
+        "y": 592
+      },
+      "name": "Get closing date without timezone offset",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "input": "{}",
+        "query": "{\"due_date\": ($millis() + ({{workflow.fields.Closing Date (while creating)}}* 24 * 60 * 60 * 1000) + (5.5 * 60 * 60 * 1000)) ~> $fromMillis('[Y0001]-[M01]-[D01]')}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": [
+            {
+              "data_slot_id": "{{workflow.fields.Closing Date (while creating)}}",
+              "compare_value": "",
+              "comparison_operator": "exist"
+            }
+          ]
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "53",
+      "incoming_nodes": [
+        "3"
+      ],
+      "outgoing_nodes": [
+        "55"
+      ],
+      "type": "rule",
+      "position": {
+        "x": -576,
+        "y": 1056
+      },
+      "name": "create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "55"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "54",
+      "incoming_nodes": [
+        "3"
+      ],
+      "outgoing_nodes": [
+        "56"
+      ],
+      "type": "rule",
+      "position": {
+        "x": -256,
+        "y": 1056
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "56"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "55",
+      "incoming_nodes": [
+        "53"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": -592,
+        "y": 1280
+      },
+      "name": "Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "",
+        "company_id": "",
+        "deal_id": "{{node.3.body.id}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "56",
+      "incoming_nodes": [
+        "54"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": -272,
+        "y": 1280
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "",
+        "company_id": "",
+        "deal_id": "{{node.3.body.id}}",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "57",
+      "incoming_nodes": [
+        "44"
+      ],
+      "outgoing_nodes": [
+        "59"
+      ],
+      "type": "rule",
+      "position": {
+        "x": -432,
+        "y": 1856
+      },
+      "name": "Copy - create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "59"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "58",
+      "incoming_nodes": [
+        "44"
+      ],
+      "outgoing_nodes": [
+        "60"
+      ],
+      "type": "rule",
+      "position": {
+        "x": -96,
+        "y": 1856
+      },
+      "name": "Copy - log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "60"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "59",
+      "incoming_nodes": [
+        "57"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": -448,
+        "y": 2112
+      },
+      "name": "Copy - Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "{{node.44.body.id}}",
+        "company_id": "",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "60",
+      "incoming_nodes": [
+        "58"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": -96,
+        "y": 2112
+      },
+      "name": "Copy - log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "{{node.44.body.id}}",
+        "company_id": "",
+        "deal_id": "",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "61",
+      "incoming_nodes": [
+        "5"
+      ],
+      "outgoing_nodes": [
+        "63"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 272,
+        "y": 1856
+      },
+      "name": "create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "63"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "62",
+      "incoming_nodes": [
+        "5"
+      ],
+      "outgoing_nodes": [
+        "64"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 544,
+        "y": 1856
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "64"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "63",
+      "incoming_nodes": [
+        "61"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 256,
+        "y": 2112
+      },
+      "name": "Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "{{node.5.body.id}}",
+        "company_id": "",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "64",
+      "incoming_nodes": [
+        "62"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 544,
+        "y": 2112
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "{{node.5.body.id}}",
+        "company_id": "",
+        "deal_id": "",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "65",
+      "incoming_nodes": [
+        "7"
+      ],
+      "outgoing_nodes": [
+        "67"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 480,
+        "y": 896
+      },
+      "name": "Copy - create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "67"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "66",
+      "incoming_nodes": [
+        "7"
+      ],
+      "outgoing_nodes": [
+        "68"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 720,
+        "y": 864
+      },
+      "name": "Copy - log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "68"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "67",
+      "incoming_nodes": [
+        "65"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 448,
+        "y": 1120
+      },
+      "name": "Copy - Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "",
+        "company_id": "{{node.7.body.id}}",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "68",
+      "incoming_nodes": [
+        "66"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 704,
+        "y": 1120
+      },
+      "name": "Copy - log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "",
+        "company_id": "{{node.7.body.id}}",
+        "deal_id": "",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "69",
+      "incoming_nodes": [
+        "10"
+      ],
+      "outgoing_nodes": [
+        "71"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 768,
+        "y": 1440
+      },
+      "name": "create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "71"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "70",
+      "incoming_nodes": [
+        "10"
+      ],
+      "outgoing_nodes": [
+        "72"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1024,
+        "y": 1440
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "72"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "71",
+      "incoming_nodes": [
+        "69"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 768,
+        "y": 1648
+      },
+      "name": "Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "",
+        "company_id": "{{node.10.body.id}}",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "72",
+      "incoming_nodes": [
+        "70"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 1024,
+        "y": 1648
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "",
+        "company_id": "{{node.10.body.id}}",
+        "deal_id": "",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "73",
+      "incoming_nodes": [
+        "45"
+      ],
+      "outgoing_nodes": [
+        "75"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1280,
+        "y": 1632
+      },
+      "name": "Copy - create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "75"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "74",
+      "incoming_nodes": [
+        "45"
+      ],
+      "outgoing_nodes": [
+        "76"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1536,
+        "y": 1632
+      },
+      "name": "Copy - log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "76"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "75",
+      "incoming_nodes": [
+        "73"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 1280,
+        "y": 1808
+      },
+      "name": "Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "{{node.45.body.id}}",
+        "company_id": "",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "76",
+      "incoming_nodes": [
+        "74"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 1536,
+        "y": 1808
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "{{node.45.body.id}}",
+        "company_id": "",
+        "deal_id": "",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "77",
+      "incoming_nodes": [
+        "24"
+      ],
+      "outgoing_nodes": [
+        "101"
+      ],
+      "type": "transform",
+      "position": {
+        "x": 1760,
+        "y": 1312
+      },
+      "name": "Copy - Get closing date without timezone offset",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "input": "{}",
+        "query": "{\"due_date\": ($millis() + ({{workflow.fields.Closing Date (while updating)}}* 24 * 60 * 60 * 1000) + (5.5 * 60 * 60 * 1000)) ~> $fromMillis('[Y0001]-[M01]-[D01]')}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": [
+            {
+              "data_slot_id": "{{workflow.fields.Closing Date (while updating)}}",
+              "compare_value": "",
+              "comparison_operator": "exist"
+            }
+          ]
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "78",
+      "incoming_nodes": [
+        "ee33b6fe-e74e-44ef-8518-9ed93b6122ec"
+      ],
+      "outgoing_nodes": [
+        "79"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 2416,
+        "y": 448
+      },
+      "name": "create-task",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-task",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "79"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "79",
+      "incoming_nodes": [
+        "78"
+      ],
+      "outgoing_nodes": [
+        "80"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 2400,
+        "y": 656
+      },
+      "name": "hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "propertyName": "email",
+        "operator": "EQ",
+        "value": "{{event.body.prospect.email}}",
+        "query": "",
+        "limit": "",
+        "after": "",
+        "sorts": "",
+        "properties": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "search_contacts",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "80",
+      "incoming_nodes": [
+        "79"
+      ],
+      "outgoing_nodes": [
+        "81"
+      ],
+      "type": "transform",
+      "position": {
+        "x": 2416,
+        "y": 832
+      },
+      "name": "Get due date without timezone offset",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "input": "{}",
+        "query": "{\"due_date\": ($millis() + ({{workflow.fields.Due In}}* 24 * 60 * 60 * 1000) + (5.5 * 60 * 60 * 1000)) ~> $fromMillis('[Y0001]-[M01]-[D01]')}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": [
+            {
+              "data_slot_id": "{{workflow.fields.Due In}}",
+              "compare_value": "",
+              "comparison_operator": "exist"
+            }
+          ]
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "81",
+      "incoming_nodes": [
+        "80"
+      ],
+      "outgoing_nodes": [
+        "82",
+        "99"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 2496,
+        "y": 1072
+      },
+      "name": "rule",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.79.body.results.0.id}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "82"
+      ],
+      "rule_failed_nodes": [
+        "99"
+      ]
+    },
+    {
+      "id": "82",
+      "incoming_nodes": [
+        "81"
+      ],
+      "outgoing_nodes": [
+        "87"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 2336,
+        "y": 1344
+      },
+      "name": "hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_task_subject": "{{workflow.fields.Task Title}}",
+        "hs_task_body": "",
+        "hs_timestamp": "{{node.80.body.result.due_date}}",
+        "hubspot_owner_id": "",
+        "hs_task_status": "",
+        "hs_task_priority": "{{workflow.fields.Task Priority}}",
+        "hs_task_type": "{{workflow.fields.Task Type}}",
+        "associations": [
+          {
+            "id": "{{node.79.body.results.0.id}}",
+            "type": "TASK_TO_CONTACT"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_task",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "83",
+      "incoming_nodes": [
+        "25"
+      ],
+      "outgoing_nodes": [
+        "85"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 1792,
+        "y": 1744
+      },
+      "name": "create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "create-note",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "85"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "84",
+      "incoming_nodes": [
+        "25"
+      ],
+      "outgoing_nodes": [
+        "86"
+      ],
+      "type": "rule",
+      "position": {
+        "x": 2064,
+        "y": 1744
+      },
+      "name": "log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "operator": "OR",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action1}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action2}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action3}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action4}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action5}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action6}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action7}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action8}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action9}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action10}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          },
+          {
+            "data_slot_id": "{{workflow.fields.Hubspot Action11}}",
+            "compare_value": "record-email-activity",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "86"
+      ],
+      "rule_failed_nodes": []
+    },
+    {
+      "id": "85",
+      "incoming_nodes": [
+        "83"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 1792,
+        "y": 1968
+      },
+      "name": "Copy - Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "",
+        "company_id": "",
+        "deal_id": "{{node.25.body.id}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "86",
+      "incoming_nodes": [
+        "84"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 2064,
+        "y": 1968
+      },
+      "name": "Copy - log email",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "hs_email_direction": "EMAIL",
+        "hs_email_text": "",
+        "hs_email_subject": "Link is clicked - Saleshandy",
+        "hs_email_status": "",
+        "hs_email_html": "{{event.body.sequence.emailBody}}",
+        "contact_id": "",
+        "company_id": "",
+        "deal_id": "{{node.25.body.id}}",
+        "additional_fields": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "log_email",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "87",
+      "incoming_nodes": [
+        "82"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 2336,
+        "y": 1584
+      },
+      "name": "Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "{{node.79.body.results.0.id}}",
+        "company_id": "",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "88",
+      "incoming_nodes": [
+        "100"
+      ],
+      "outgoing_nodes": [
+        "89"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 2640,
+        "y": 1360
+      },
+      "name": "Copy - hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "firstname": "{{event.body.prospect.firstName}}",
+        "lastname": "{{event.body.prospect.lastName}}",
+        "email": "{{event.body.prospect.email}}",
+        "phone": "",
+        "hs_whatsapp_phone_number": "",
+        "company": "",
+        "website": "",
+        "date_of_birth": "",
+        "school": "",
+        "degree": "",
+        "city": "",
+        "zip": "",
+        "country": "",
+        "industry": "",
+        "jobtitle": "",
+        "gender": "",
+        "lifecyclestage": "{{workflow.fields.Lead Lifecycle}}",
+        "hs_lead_status": "{{workflow.fields.Lead Status}}",
+        "additional_fields": "{{node.100.body}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": [
+        "additional_fields"
+      ]
+    },
+    {
+      "id": "89",
+      "incoming_nodes": [
+        "88"
+      ],
+      "outgoing_nodes": [
+        "90"
+      ],
+      "type": "hubspot",
+      "position": {
+        "x": 2640,
+        "y": 1584
+      },
+      "name": "Copy - hubspot",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_task_subject": "{{workflow.fields.Task Title}}",
+        "hs_task_body": "",
+        "hs_timestamp": "{{node.80.body.result.due_date}}",
+        "hubspot_owner_id": "",
+        "hs_task_status": "",
+        "hs_task_priority": "{{workflow.fields.Task Priority}}",
+        "hs_task_type": "{{workflow.fields.Task Type}}",
+        "associations": [
+          {
+            "id": "{{node.88.body.id}}",
+            "type": "TASK_TO_CONTACT"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_task",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "90",
+      "incoming_nodes": [
+        "89"
+      ],
+      "outgoing_nodes": [],
+      "type": "hubspot",
+      "position": {
+        "x": 2672,
+        "y": 1776
+      },
+      "name": "Copy - Create note",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "hs_note_body": "<p><b>Title: <b> {{event.body.event}}<br/><b>Sequence:</b> https://my.saleshandy.com/sequence/{{event.body.sequence.id}}/steps <br/><b>Sequence Name: </b> {{event.body.sequence.sequenceName}}<br/><b>Step:</b> {{event.body.sequence.stepNumber}}<br/><b>Variant:</b> {{event.body.sequence.variant}}<br/><b>Click Count:</b>  {{event.body.sequence.clickCount}}<br/> \n<b>Sender Email:</b> {{event.body.sequence.senderEmail}}<br/><b>Latest Outcome:</b>{{event.body.sequence.latestOutcome}}<br/><b>Prospect Email:</b> {{event.body.prospect.email}}<br/><b>User:</b> {{event.body.user.email}}<br/><b>Link URL:</b> {{event.body.link}}</p>",
+        "hs_timestamp": "{{event.body.linkClickedAt}}",
+        "contact_id": "{{node.88.body.id}}",
+        "company_id": "",
+        "deal_id": ""
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_note",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "91",
+      "incoming_nodes": [
+        "9"
+      ],
+      "outgoing_nodes": [
+        "12"
+      ],
+      "type": "codeexecutornode",
+      "position": {
+        "x": 992,
+        "y": 832
+      },
+      "name": "Custom Code",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "code_string": " \nfunction yourFunction(params) {\n    for(const organisation of params.allOrganisation){\n        if(organisation.properties.name===params.requiredOrganisation){\n            return {\"result\": {organisationID: organisation.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "allOrganisation",
+            "value": "{{node.9.body.results}}"
+          },
+          {
+            "key": "requiredOrganisation",
+            "value": "{{event.body.prospect.company}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "92",
+      "incoming_nodes": [
+        "22"
+      ],
+      "outgoing_nodes": [
+        "24"
+      ],
+      "type": "codeexecutornode",
+      "position": {
+        "x": 1728,
+        "y": 848
+      },
+      "name": "Custom Code",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "code_string": " \nfunction yourFunction(params) {\n    for(const deal of params.allDeal){\n        if(deal.properties.dealname===params.requiredDeal){\n            return {\"result\": {dealID: deal.id, exists: true}}\n        }\n    }\n    return {\"result\": {exists: false}}\n}",
+        "code_language": "javascript",
+        "input_parameters": [
+          {
+            "key": "allDeal",
+            "value": "{{node.22.body.results}}"
+          },
+          {
+            "key": "requiredDeal",
+            "value": "{{event.body.prospect.firstName}} {{event.body.prospect.lastName}}"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "enable_schema_validation": false
+        }
+      },
+      "action": "no_action",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "93",
+      "incoming_nodes": [
+        "52"
+      ],
+      "outgoing_nodes": [
+        "94"
+      ],
+      "type": "custom",
+      "position": {
+        "x": -368,
+        "y": 636
+      },
+      "name": "Saleshandy",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8"
+    },
+    {
+      "id": "94",
+      "incoming_nodes": [
+        "93"
+      ],
+      "outgoing_nodes": [
+        "103"
+      ],
+      "type": "internal_functions",
+      "position": {
+        "x": -368,
+        "y": 756
+      },
+      "name": "Functions",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.93.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Deal Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "95",
+      "incoming_nodes": [
+        "49"
+      ],
+      "outgoing_nodes": [
+        "96"
+      ],
+      "type": "custom",
+      "position": {
+        "x": 32,
+        "y": 924
+      },
+      "name": "Saleshandy",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8"
+    },
+    {
+      "id": "96",
+      "incoming_nodes": [
+        "95"
+      ],
+      "outgoing_nodes": [
+        "43"
+      ],
+      "type": "internal_functions",
+      "position": {
+        "x": 32,
+        "y": 1044
+      },
+      "name": "Functions",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.95.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "97",
+      "incoming_nodes": [
+        "19"
+      ],
+      "outgoing_nodes": [
+        "98"
+      ],
+      "type": "custom",
+      "position": {
+        "x": 1120,
+        "y": 1092
+      },
+      "name": "Saleshandy",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8"
+    },
+    {
+      "id": "98",
+      "incoming_nodes": [
+        "97"
+      ],
+      "outgoing_nodes": [
+        "45"
+      ],
+      "type": "internal_functions",
+      "position": {
+        "x": 1120,
+        "y": 1212
+      },
+      "name": "Functions",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.97.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "99",
+      "incoming_nodes": [
+        "81"
+      ],
+      "outgoing_nodes": [
+        "100"
+      ],
+      "type": "custom",
+      "position": {
+        "x": 2336,
+        "y": 1156
+      },
+      "name": "Saleshandy",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8"
+    },
+    {
+      "id": "100",
+      "incoming_nodes": [
+        "99"
+      ],
+      "outgoing_nodes": [
+        "88"
+      ],
+      "type": "internal_functions",
+      "position": {
+        "x": 2336,
+        "y": 1276
+      },
+      "name": "Functions",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.99.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Contact Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "101",
+      "incoming_nodes": [
+        "77"
+      ],
+      "outgoing_nodes": [
+        "102"
+      ],
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 1356
+      },
+      "name": "Saleshandy",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8"
+    },
+    {
+      "id": "102",
+      "incoming_nodes": [
+        "101"
+      ],
+      "outgoing_nodes": [
+        "25"
+      ],
+      "type": "internal_functions",
+      "position": {
+        "x": 1600,
+        "y": 1476
+      },
+      "name": "Functions",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.101.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Deal Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "103",
+      "incoming_nodes": [
+        "94"
+      ],
+      "outgoing_nodes": [
+        "104"
+      ],
+      "data": null,
+      "type": "transform",
+      "position": {
+        "x": -1200,
+        "y": 450
+      },
+      "name": "Merge properties with additional fields",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "input": "{}",
+        "query": "$merge([{\"dealname\": \"{{event.body.prospect.firstName}} {{event.body.prospect.lastName}}\", \"pipeline\": \"{{workflow.fields.Select Pipeline (when to create)}}\", \"dealstage\": \"{{workflow.fields.Select Pipeline Stage (when to create)}}\", \"dealtype\": \"{{workflow.fields.Deal Type (while creating)}}\", \"hs_priority\": \"{{workflow.fields.Deal Priority (while creating)}}\", \"closedate\": \"{{node.52.body.result.due_date}}\"}, {{node.94.body}}])"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "104",
+      "incoming_nodes": [
+        "103"
+      ],
+      "outgoing_nodes": [
+        "105"
+      ],
+      "data": null,
+      "type": "hubspot",
+      "position": {
+        "x": -1200,
+        "y": 500
+      },
+      "name": "Search Contact for Deal Association",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "propertyName": "email",
+        "operator": "EQ",
+        "value": "{{event.body.prospect.email}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "search_contacts",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "105",
+      "incoming_nodes": [
+        "104"
+      ],
+      "outgoing_nodes": [
+        "3",
+        "106"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": -1200,
+        "y": 600
+      },
+      "name": "If Contact exist for Deal Association?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.104.body.results.0.id}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          },
+          {
+            "data_slot_id": "{{node.104.body.results.0.properties.email}}",
+            "compare_value": "{{event.body.prospect.email}}",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "3"
+      ],
+      "rule_failed_nodes": [
+        "106"
+      ]
+    },
+    {
+      "id": "106",
+      "incoming_nodes": [
+        "105"
+      ],
+      "outgoing_nodes": [
+        "107"
+      ],
+      "data": null,
+      "type": "hubspot",
+      "position": {
+        "x": -1350,
+        "y": 700
+      },
+      "name": "Create Contact for Deal Association (fallback)",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "firstname": "{{event.body.prospect.firstName}}",
+        "lastname": "{{event.body.prospect.lastName}}",
+        "email": "{{event.body.prospect.email}}",
+        "lifecyclestage": "{{workflow.fields.Lead Lifecycle}}",
+        "hs_lead_status": "{{workflow.fields.Lead Status}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "107",
+      "incoming_nodes": [
+        "106"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "hubspot",
+      "position": {
+        "x": -1350,
+        "y": 800
+      },
+      "name": "Create Deal (fallback, new contact)",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "POST",
+        "url_path": "/crm/v3/objects/deals",
+        "body": "{\n  \"properties\": {{node.103.body.result}},\n\"associations\": [\n    {\n     \"to\": {\n        \"id\": {{node.106.body.id}}\n      },\n      \"types\": [\n        {\n          \"associationCategory\": \"HUBSPOT_DEFINED\",\n          \"associationTypeId\": 3\n        } ]\n    }\n]}\n"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "108",
+      "incoming_nodes": [
+        "14"
+      ],
+      "outgoing_nodes": [
+        "109"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": 560,
+        "y": 700
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "109",
+      "incoming_nodes": [
+        "108"
+      ],
+      "outgoing_nodes": [
+        "110"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": 560,
+        "y": 800
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.108.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Company Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "110",
+      "incoming_nodes": [
+        "109"
+      ],
+      "outgoing_nodes": [
+        "111"
+      ],
+      "data": null,
+      "type": "transform",
+      "position": {
+        "x": 560,
+        "y": 850
+      },
+      "name": "Merge properties with additional fields",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "input": "{}",
+        "query": "$merge([{\"name\": \"{{event.body.prospect.company}}\", \"domain\": \"{{event.body.prospect.companyDomain}}\"}, {{node.109.body}}])"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "query": ""
+    },
+    {
+      "id": "111",
+      "incoming_nodes": [
+        "110"
+      ],
+      "outgoing_nodes": [
+        "112"
+      ],
+      "data": null,
+      "type": "hubspot",
+      "position": {
+        "x": 560,
+        "y": 900
+      },
+      "name": "Search Contact for Company Association",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "propertyName": "email",
+        "operator": "EQ",
+        "value": "{{event.body.prospect.email}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "search_contacts",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "112",
+      "incoming_nodes": [
+        "111"
+      ],
+      "outgoing_nodes": [
+        "7",
+        "113"
+      ],
+      "data": null,
+      "type": "rule",
+      "position": {
+        "x": 560,
+        "y": 1000
+      },
+      "name": "If Contact exist for Company Association?",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "operator": "AND",
+        "compare_value_of": [
+          {
+            "data_slot_id": "{{node.111.body.results.0.id}}",
+            "compare_value": "",
+            "comparison_operator": "exist"
+          },
+          {
+            "data_slot_id": "{{node.111.body.results.0.properties.email}}",
+            "compare_value": "{{event.body.prospect.email}}",
+            "comparison_operator": "eq"
+          }
+        ]
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "hidden": false,
+      "optional_fields": [],
+      "rule_satisfied_nodes": [
+        "7"
+      ],
+      "rule_failed_nodes": [
+        "113"
+      ]
+    },
+    {
+      "id": "113",
+      "incoming_nodes": [
+        "112"
+      ],
+      "outgoing_nodes": [
+        "114"
+      ],
+      "data": null,
+      "type": "hubspot",
+      "position": {
+        "x": 700,
+        "y": 1100
+      },
+      "name": "Create Contact for Company Association (fallback)",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "firstname": "{{event.body.prospect.firstName}}",
+        "lastname": "{{event.body.prospect.lastName}}",
+        "email": "{{event.body.prospect.email}}",
+        "lifecyclestage": "{{workflow.fields.Lead Lifecycle}}",
+        "hs_lead_status": "{{workflow.fields.Lead Status}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "create_contact",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "114",
+      "incoming_nodes": [
+        "113"
+      ],
+      "outgoing_nodes": [],
+      "data": null,
+      "type": "hubspot",
+      "position": {
+        "x": 700,
+        "y": 1200
+      },
+      "name": "Create Company (fallback, new contact)",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "method": "POST",
+        "url_path": "/crm/v3/objects/companies",
+        "body": "{\n  \"properties\": {{node.110.body.result}},\n\"associations\": [\n    {\n     \"to\": {\n        \"id\": {{node.113.body.id}}\n      },\n      \"types\": [\n        {\n          \"associationCategory\": \"HUBSPOT_DEFINED\",\n          \"associationTypeId\": 280\n        } ]\n    }\n]}\n"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "action": "httprequest",
+      "hidden": false,
+      "optional_fields": []
+    },
+    {
+      "id": "115",
+      "incoming_nodes": [
+        "12"
+      ],
+      "outgoing_nodes": [
+        "116"
+      ],
+      "data": null,
+      "type": "custom",
+      "position": {
+        "x": 1300,
+        "y": 1150
+      },
+      "name": "Saleshandy",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {},
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "action": "6578300bc002b2b9b4f15c37",
+      "hidden": false,
+      "optional_fields": [],
+      "application_id": "681368981acc0cbcd16294c8",
+      "application_slug": "saleshandy",
+      "action_operation_id": "get_prospect_fields",
+      "action_name": "Get Prospect Fields",
+      "action_fields_fingerprint": ""
+    },
+    {
+      "id": "116",
+      "incoming_nodes": [
+        "115"
+      ],
+      "outgoing_nodes": [
+        "10"
+      ],
+      "data": null,
+      "type": "internal_functions",
+      "position": {
+        "x": 1300,
+        "y": 1250
+      },
+      "name": "Functions",
+      "status": "Ready",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "parsed_response": {},
+      "headers_received_in_response": {},
+      "parsed_response_while_waiting": {},
+      "request": {},
+      "input_data": {
+        "internal_function_name": "Mapping Function",
+        "shFields": "{{node.115.body.payload}}",
+        "prospect": "{{event.body.prospect}}",
+        "fieldMapping": "{{application.fields.Company Properties}}"
+      },
+      "style": {},
+      "maximum_attempts": 1,
+      "attempts_made": 0,
+      "is_batch": false,
+      "additional_node_properties": {
+        "node_rule": {
+          "operator": "AND",
+          "compare_value_of": []
+        },
+        "node_settings": {
+          "skip_on_error": false,
+          "hide_node_request": false,
+          "output_fields": [],
+          "encrypted_output_fields": [],
+          "allow_partial_success": false,
+          "enable_schema_validation": false
+        }
+      },
+      "hidden": false,
+      "optional_fields": []
+    }
+  ],
+  "published": true,
+  "associated_application": "681368981acc0cbcd16294c1",
+  "index_order": 9,
+  "autoEnable": false,
+  "hide_in_config": false,
+  "createdAt": "2023-07-18T18:35:02.858Z",
+  "updatedAt": "2026-09-21T10:08:06.087Z",
+  "udf_filter": [
+    {}
+  ],
+  "environment": "test",
+  "slug": "hubspot",
+  "expose_as_node": false,
+  "group": "Activity email",
+  "is_v2": true,
+  "settings": {},
+  "workflow_alias": "",
+  "tags": []
+}

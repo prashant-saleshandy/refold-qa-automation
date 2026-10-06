@@ -81,16 +81,19 @@ export class HubspotClient {
   }
 
   /**
-   * Object ids associated with a contact for a given object type (e.g.
-   * 'deals', 'companies', 'tasks', 'notes', 'emails') — the generic lookup
-   * used to find whatever a create- or update- action attached to the
-   * contact, without needing to guess a name/domain to search by (which we
-   * don't reliably know for Deal/Company — see
-   * src/workflows/hubspot/object-verifiers.ts).
+   * Object ids associated FROM a given object (any type, e.g. 'contacts',
+   * 'deals', 'companies') TO another object type (e.g. 'deals', 'companies',
+   * 'tasks', 'notes', 'emails') — the generic lookup used to find whatever a
+   * create- or update- action attached, without needing to guess a
+   * name/domain to search by (which we don't reliably know for Deal/Company
+   * — see src/workflows/hubspot/object-verifiers.ts). Confirmed live
+   * 2026-09-22: this workflow can attach notes/emails to the Contact, OR to
+   * a Deal/Company instead (whichever sibling action also fired) — so
+   * callers may need to check more than one `fromObjectType`.
    */
-  async getAssociatedObjectIds(contactId: string, toObjectType: string): Promise<string[]> {
+  async getAssociatedObjectIds(fromId: string, toObjectType: string, fromObjectType = 'contacts'): Promise<string[]> {
     const { data } = await this.http.get(
-      `/crm/v4/objects/contacts/${contactId}/associations/${toObjectType}`,
+      `/crm/v4/objects/${fromObjectType}/${fromId}/associations/${toObjectType}`,
     );
     return (data?.results ?? []).map((r: { toObjectId: string }) => r.toObjectId);
   }
@@ -116,22 +119,52 @@ export class HubspotClient {
    * when multiple objects of the same type are already associated).
    */
   async waitForAssociatedObject(
-    contactId: string,
+    fromId: string,
     toObjectType: string,
-    options: { timeoutMs?: number; pollIntervalMs?: number } = {},
+    options: { timeoutMs?: number; pollIntervalMs?: number; fromObjectType?: string } = {},
   ): Promise<string[]> {
     const timeoutMs = options.timeoutMs ?? 45_000;
     const pollIntervalMs = options.pollIntervalMs ?? 5_000;
+    const fromObjectType = options.fromObjectType ?? 'contacts';
     const deadline = Date.now() + timeoutMs;
 
     let lastResult: string[] = [];
     while (Date.now() < deadline) {
-      lastResult = await this.getAssociatedObjectIds(contactId, toObjectType);
+      lastResult = await this.getAssociatedObjectIds(fromId, toObjectType, fromObjectType);
       if (lastResult.length > 0) return lastResult;
       // eslint-disable-next-line no-await-in-loop
       await new Promise((resolve) => setTimeout(resolve, pollIntervalMs));
     }
     return lastResult;
+  }
+
+  /**
+   * Archives (soft-deletes) every object of `objectType` in this portal —
+   * used to reset the dedicated QA HubSpot portal to empty before a fresh
+   * run, so a previous run's leftover contact/deal/company/etc. can never
+   * be mistaken for this run's real result. Paginates via `search` (100 at
+   * a time) since there's no "delete all" endpoint. Safe to call on an
+   * already-empty object type (just does nothing).
+   */
+  async deleteAllObjects(objectType: string): Promise<number> {
+    let deleted = 0;
+    let after: string | undefined;
+    // eslint-disable-next-line no-constant-condition
+    while (true) {
+      const { data } = await this.http.post(`/crm/v3/objects/${objectType}/search`, {
+        limit: 100,
+        properties: ['hs_object_id'],
+        ...(after ? { after } : {}),
+      });
+      const ids: string[] = (data?.results ?? []).map((r: { id: string }) => r.id);
+      if (ids.length === 0) break;
+      // eslint-disable-next-line no-await-in-loop
+      await Promise.all(ids.map((id) => this.http.delete(`/crm/v3/objects/${objectType}/${id}`)));
+      deleted += ids.length;
+      after = data?.paging?.next?.after;
+      if (!after) break;
+    }
+    return deleted;
   }
 }
 

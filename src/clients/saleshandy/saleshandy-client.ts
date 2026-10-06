@@ -114,6 +114,17 @@ export class SaleshandyClient {
     return { requestId: data.payload.requestId };
   }
 
+  /**
+   * Confirmed live 2026-09-22: `isCompleted: true` does NOT mean the
+   * prospect actually got imported — a per-row validation failure (e.g. a
+   * non-numeric value for a NUMBER-type custom field) makes the WHOLE
+   * prospect silently rejected, with `isCompleted: true` and a
+   * `failedProspectsURL` pointing at a CSV error report instead of any
+   * thrown error. Missed this once already: the harness proceeded as if
+   * setup succeeded, then spent 25 minutes waiting for a reply-trigger
+   * email that could never be sent because the sequence had zero
+   * prospects. Always check for `failedProspectsURL` and fail loudly.
+   */
   async waitForImportComplete(requestId: string, timeoutMs = 60_000): Promise<void> {
     const deadline = Date.now() + timeoutMs;
     // A few seconds' initial delay + a slower poll interval — the Open API
@@ -123,7 +134,14 @@ export class SaleshandyClient {
       const { data } = await this.http.get(`/prospects/import-status/${requestId}`);
       // Confirmed live 2026-09-17: nested under payload, not top-level as
       // the published OpenAPI example shows.
-      if (data.payload?.isCompleted) return;
+      if (data.payload?.isCompleted) {
+        if (data.payload?.failedProspectsURL) {
+          throw new Error(
+            `Prospect import ${requestId} completed but the prospect was rejected — see error report: ${data.payload.failedProspectsURL}`,
+          );
+        }
+        return;
+      }
       // eslint-disable-next-line no-await-in-loop
       await new Promise((resolve) => setTimeout(resolve, 8_000));
     }
@@ -133,6 +151,32 @@ export class SaleshandyClient {
   /** Activates (starts) one or more sequences. */
   async activateSequence(sequenceIds: string[]): Promise<void> {
     await this.http.post('/sequences/status', { sequenceIds, status: 'resume' });
+  }
+
+
+  /**
+   * Sets a prospect's outcome within a sequence — the trigger for the
+   * "Prospect Outcome is updated in Saleshandy" Refold workflow. Confirmed
+   * live 2026-09-18 that `outcomeName` accepts exactly the same strings as
+   * `GET /unified-inbox/outcome`'s `name` field (e.g. "Interested", "Not
+   * Interested", "Meeting Booked", "Out of Office", "Closed", "Not Now", "Do
+   * Not Contact", "Uncategorized") — the same set Refold's "Select Outcome"
+   * dropdown options use, letter-for-letter. This is a direct, deterministic
+   * trigger (unlike "Reply is Received", which relies on SalesHandy's own
+   * reply-outcome auto-classification) — no email/reply/IMAP wait needed.
+   */
+  async updateProspectOutcome(params: {
+    sequenceId: string | number;
+    prospectEmails: string[];
+    outcomeName: string;
+    dealValue?: number;
+  }): Promise<void> {
+    await this.http.patch('/sequences/update-prospect-outcome', {
+      sequenceId: params.sequenceId,
+      prospectEmails: params.prospectEmails,
+      outcomeName: params.outcomeName,
+      ...(params.dealValue !== undefined ? { dealValue: params.dealValue } : {}),
+    });
   }
 
   /**

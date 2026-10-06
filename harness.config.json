@@ -3,11 +3,17 @@
     "hubspot": [
       {
         "workflowId": "681368981acc0cbcd16295a9",
+        "active": false,
         "phases": [
           {
-            "name": "create",
+            "name": "create-contact-only",
             "actions": [
-              "create-contact",
+              "create-contact"
+            ]
+          },
+          {
+            "name": "create-rest",
+            "actions": [
               "create-deal",
               "create-company",
               "create-task",
@@ -21,6 +27,209 @@
               "update-contact",
               "update-deal",
               "update-company"
+            ]
+          }
+        ]
+      },
+      {
+        "workflowId": "681368981acc0cbcd16295b0",
+        "active": false,
+        "contextKey": "prospect-outcome-same",
+        "phases": [
+          {
+            "name": "create-same-outcomes",
+            "mode": "same-outcome",
+            "actions": [
+              "create-contact",
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          },
+          {
+            "name": "update-same-outcomes",
+            "mode": "same-outcome",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-company"
+            ]
+          }
+        ]
+      },
+      {
+        "workflowId": "681368981acc0cbcd16295b0",
+        "active": false,
+        "contextKey": "prospect-outcome-create-diff",
+        "phases": [
+          {
+            "name": "create-diff-outcomes",
+            "mode": "diff-outcome",
+            "actions": [
+              "create-contact",
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          }
+        ]
+      },
+      {
+        "workflowId": "681368981acc0cbcd16295b0",
+        "active": false,
+        "contextKey": "prospect-outcome-update-diff",
+        "phases": [
+          {
+            "name": "update-diff-seed",
+            "mode": "same-outcome",
+            "actions": [
+              "create-contact",
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          },
+          {
+            "name": "update-diff-outcomes",
+            "mode": "diff-outcome",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-company"
+            ]
+          }
+        ]
+      },
+      {
+        "workflowId": "681368981acc0cbcd16295ac",
+        "active": false,
+        "phases": [
+          {
+            "name": "create-contact-only",
+            "actions": [
+              "create-contact"
+            ]
+          },
+          {
+            "name": "create-rest",
+            "actions": [
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          },
+          {
+            "name": "update",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-company"
+            ]
+          }
+        ]
+      },
+      {
+        "workflowId": "681368981acc0cbcd16295ad",
+        "active": false,
+        "phases": [
+          {
+            "name": "create-contact-only",
+            "actions": [
+              "create-contact"
+            ]
+          },
+          {
+            "name": "create-rest",
+            "actions": [
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          },
+          {
+            "name": "update",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-company"
+            ]
+          }
+        ]
+      },
+      {
+        "workflowId": "681368981acc0cbcd16295ab",
+        "active": true,
+        "phases": [
+          {
+            "name": "create-contact-only",
+            "actions": [
+              "create-contact"
+            ]
+          },
+          {
+            "name": "create-rest",
+            "actions": [
+              "create-deal",
+              "create-company",
+              "create-task",
+              "create-note",
+              "record-email-activity"
+            ]
+          },
+          {
+            "name": "update",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-company"
+            ]
+          }
+        ]
+      }
+    ],
+    "pipedrive": [
+      {
+        "workflowId": "681368981acc0cbcd162959d",
+        "active": true,
+        "phases": [
+          {
+            "name": "create-contact-only",
+            "actions": [
+              "create-contact"
+            ]
+          },
+          {
+            "name": "create-rest",
+            "actions": [
+              "create-deal",
+              "create-org",
+              "create-lead"
+            ]
+          },
+          {
+            "name": "update",
+            "actions": [
+              "update-contact",
+              "update-deal",
+              "update-organization"
+            ]
+          },
+          {
+            "name": "delete",
+            "actions": [
+              "delete-contact",
+              "delete-deal",
+              "delete-organization"
             ]
           }
         ]

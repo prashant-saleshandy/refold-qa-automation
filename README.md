@@ -45,21 +45,33 @@ action in it:
 ```
 
 For each phase, fully automated, no manual steps beyond the dashboard: preflights every action in
-the phase at once against Refold's live config (pauses with the exact, complete list still missing
-if any aren't selected — never guesses, never runs a doomed phase), then runs SalesHandy setup →
-an automated reply (via IMAP read + SMTP send, see `execution-plan.md` §9) → one Refold execution
-check covering every action's node → one CRM object check per action, then moves to the next
-phase by replying a **second time to the same email thread** (confirmed this re-triggers the
-workflow) so a later phase like "update" can act on real objects an earlier phase like "create"
-already made — no synthetic seeding needed. Writes a report snapshot to `test-results/` as soon as
-EACH phase finishes (never only at the end — nothing is lost if a later phase crashes), plus one
-final combined report covering every phase; every file gets a fresh timestamp, so nothing is ever
-overwritten or deleted, within a run or across separate runs. See `execution-plan.md` §11 for the
-full design and §12 for why "also automate enabling the workflow/selecting its actions" was
-investigated and rejected.
+the phase at once against Refold's live config (skips immediately with the exact, complete list
+still missing if any aren't selected — this script runs unattended, so it never pauses waiting for
+a keypress, see `execution-plan.md` §18), then runs SalesHandy setup → an automated reply (via IMAP
+read + SMTP send, see `execution-plan.md` §9) → one Refold execution check covering every action's
+node → one CRM object check per action, then moves to the next phase by replying a **second time to
+the same email thread** (confirmed this re-triggers the workflow) so a later phase like "update" can
+act on real objects an earlier phase like "create" already made — no synthetic seeding needed.
 
-Use `npm run preflight` to check readiness (which actions are/aren't selected per phase) without
-running anything — no SalesHandy sequence, no email, no CRM writes.
+Writes ONE combined report per workflow, updated as soon as each phase finishes (never only at the
+end — nothing is lost if a later phase crashes), under
+`test-results/<runNumber>/<workflowId>/report.md` — every action from every phase in one table
+(Action | Pass/Failed | If failed why | What happened), with a `result.json` alongside it holding
+the raw row data. `runNumber` is a plain incrementing integer (1, 2, 3, ...), shared across the
+whole suite run, including phases run in a later `--resume` invocation — see `execution-plan.md`
+§22/§29/§30.
+
+**Testing a later phase separately, after a dashboard switch**: since this script can't pause
+mid-run for you to change the dashboard (§18), run it once per phase instead, with `--resume` on
+every call after the first — the same `harness.config.json` covers every phase, since `active`
+(per workflow spec) is how you turn workflows on/off, not separate scoped config files. E.g. after
+switching the dashboard from create-actions to update-actions, just re-run
+`npx tsx scripts/run-suite.ts --resume`. `--resume` picks up the exact same prospect/contact the
+first run made (see `execution-plan.md` §21) instead of starting over, and reports for the new
+phase's actions land in the same timestamped top-level folder as the first run.
+
+Use `npm run preflight [path/to/harness.config.json]` to check readiness (which actions are/aren't
+selected per phase) without running anything — no SalesHandy sequence, no email, no CRM writes.
 
 Salesforce, Pipedrive, and Zoho are scaffolded (client + verifier boundaries exist under
 `src/clients/crms/<crm>/` and `src/workflows/<crm>/`) but not yet implemented — see

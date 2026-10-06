@@ -11,6 +11,14 @@ export interface PreflightResult {
    * field values, not hardcoded, so the harness always tests whatever is
    * actually configured right now. */
   expectedFields?: Record<string, unknown>;
+  /**
+   * Present when `outcomeGateFieldId` was passed and configured — the
+   * SalesHandy outcome name (e.g. "Interested") this action only fires for.
+   * This is a TRIGGER GATE, never a HubSpot field value — see
+   * prospect-outcome-field-map.ts's docstring for why it's kept separate
+   * from `expectedFields`.
+   */
+  configuredOutcome?: string;
 }
 
 const ACTION_FIELD_NAME_PATTERN = /action\d+$/i;
@@ -29,8 +37,13 @@ export async function preflightWorkflowAction(params: {
   workflowId: string;
   actionCode: string;
   fieldMap: Array<{ fieldId: string; hubspotProperty: string }>;
+  /** Optional — this action's "Select Outcome (while ...)" trigger-gate
+   * field id, for workflows like "Prospect Outcome is updated" that only
+   * fire an action when the triggering outcome matches. Omit for
+   * workflows without this concept (e.g. "Reply is Received"). */
+  outcomeGateFieldId?: string;
 }): Promise<PreflightResult> {
-  const { refold, slug, configId, workflowId, actionCode, fieldMap } = params;
+  const { refold, slug, configId, workflowId, actionCode, fieldMap, outcomeGateFieldId } = params;
 
   const config = await refold.getConfig(slug, configId);
   const workflow = config.workflows.find((w) => w.id === workflowId);
@@ -69,7 +82,20 @@ export async function preflightWorkflowAction(params: {
     expectedFields[hubspotProperty] = field.value;
   }
 
-  return { ok: true, workflowName: workflow.name, expectedFields };
+  let configuredOutcome: string | undefined;
+  if (outcomeGateFieldId) {
+    const field = workflow.fields.find((f) => f.id === outcomeGateFieldId);
+    if (!field || field.value === undefined || field.value === null || field.value === '') {
+      return {
+        ok: false,
+        workflowName: workflow.name,
+        reason: `"${field?.name ?? outcomeGateFieldId}" (outcome gate) has no configured value on "${workflow.name}" — set it in the dashboard before testing.`,
+      };
+    }
+    configuredOutcome = String(field.value);
+  }
+
+  return { ok: true, workflowName: workflow.name, expectedFields, configuredOutcome };
 }
 
 function isActionConfigured(workflow: RefoldConfigWorkflow, actionCode: string): boolean {

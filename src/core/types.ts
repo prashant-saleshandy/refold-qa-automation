@@ -43,8 +43,30 @@ export interface RunContext {
   setupStartedAt?: string;
   sentAt?: string;
   repliedAt?: string;
+  /**
+   * Generic "when the trigger for this phase actually fired" timestamp —
+   * used as the lower bound for the NEXT Refold execution lookup,
+   * regardless of trigger mechanism. Set by `autoReply` (same moment as
+   * `repliedAt`) or by `triggerOutcomeUpdate` (see
+   * src/workflows/hubspot/outcome-gate-registry.ts's `TriggerType`) —
+   * prefer this over `repliedAt` in new code; `repliedAt` is kept for the
+   * reply-specific meaning where it's still useful on its own.
+   */
+  triggeredAt?: string;
   executionId?: string;
   crmObjectId?: string;
+  /**
+   * Plain incrementing run number (1, 2, 3, ...) identifying ONE suite run
+   * — a misnomer kept for compatibility with saved run contexts (see
+   * getNextRunNumber in report.ts). Shared across every phase of that run,
+   * including phases run in a LATER, separate `--resume` invocation (see
+   * src/core/run-context-store.ts). Set once when a fresh context is
+   * created, then persisted/reloaded on resume, so
+   * `test-results/<reportTimestamp>/<workflowId>/report.md` (one combined
+   * report, every action/phase) stays the same top-level folder across the
+   * whole run regardless of how many separate script invocations it took.
+   */
+  reportTimestamp?: string;
 }
 
 export interface FieldMismatch {
@@ -82,6 +104,11 @@ export interface SuiteReportRow {
   status: 'PASS' | 'FAIL' | 'SKIPPED';
   /** Why, for SKIPPED (misconfigured) or FAIL. */
   reason?: string;
+  /** Default true. False for a "diff-outcome" phase row testing that an
+   * action correctly does NOT fire — see PhaseActionSpec.expectFire and
+   * execution-plan.md §26. Changes how PASS/FAIL should be read: for
+   * `false`, PASS means "correctly stayed silent," not "ran successfully." */
+  expectFire?: boolean;
   /** Links/ids proving the result — shown in the report as evidence. */
   evidence?: {
     refoldExecutionId?: string;
